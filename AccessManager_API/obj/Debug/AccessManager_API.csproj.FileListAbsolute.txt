@@ -1,0 +1,1141 @@
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\ApplicationInsights.config
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll.config
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\MyHub.pdb
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Dapper.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.io.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Web.Infrastructure.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Owin.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Cors.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\WebGrease.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.pdb
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.pdb
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Dapper.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.io.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.pdb
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.AssemblyReference.cache
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CoreCompileInputs.cache
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CopyComplete
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.pdb
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe.config
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.rsp
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe.config
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.rsp
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Buffers.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Collections.Immutable.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Memory.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Numerics.Vectors.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe.config
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.rsp
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe.config
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.Configuration.ConfigurationManager.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\ZstdSharp.dll
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.pdb
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Yr23\HW-Soft-Work\MeterBox\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\ApplicationInsights.config
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll.config
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.pdb
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe.config
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.rsp
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe.config
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.rsp
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Buffers.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Collections.Immutable.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Memory.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Numerics.Vectors.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe.config
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.rsp
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe.config
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Dapper.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.io.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Web.Infrastructure.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Owin.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Configuration.ConfigurationManager.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Cors.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\WebGrease.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\ZstdSharp.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.pdb
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.pdb
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Dapper.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.pdb
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.io.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.pdb
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.AssemblyReference.cache
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CoreCompileInputs.cache
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CopyComplete
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.dll
+D:\Yr23\HW-Soft-Work\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.pdb
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\ApplicationInsights.config
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll.config
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\MyHub.pdb
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe.config
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.rsp
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe.config
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.rsp
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Buffers.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Collections.Immutable.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Memory.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Numerics.Vectors.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe.config
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.rsp
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe.config
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Dapper.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.io.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Web.Infrastructure.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Owin.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Configuration.ConfigurationManager.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Cors.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\WebGrease.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\ZstdSharp.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.pdb
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.pdb
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Dapper.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.pdb
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.io.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.pdb
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.AssemblyReference.cache
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CoreCompileInputs.cache
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CopyComplete
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.dll
+D:\MeterboxApi Work 19012024\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.pdb
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\ApplicationInsights.config
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll.config
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.pdb
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe.config
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.rsp
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe.config
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.rsp
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Buffers.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Collections.Immutable.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Memory.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Numerics.Vectors.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe.config
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.rsp
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe.config
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Dapper.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.io.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Web.Infrastructure.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Owin.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Configuration.ConfigurationManager.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Cors.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\WebGrease.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\ZstdSharp.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.pdb
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.pdb
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Dapper.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.pdb
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.io.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.pdb
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.AssemblyReference.cache
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CoreCompileInputs.cache
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.dll
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.pdb
+D:\Meterbox Development 16-01-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessMa.BEEF3D2A.Up2Date
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\ApplicationInsights.config
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll.config
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MyHub.pdb
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe.config
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csc.rsp
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe.config
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\csi.rsp
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Buffers.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Collections.Immutable.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Memory.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Numerics.Vectors.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe.config
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\vbc.rsp
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe.config
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Dapper.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.io.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Web.Infrastructure.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Owin.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Configuration.ConfigurationManager.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Cors.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\WebGrease.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\ZstdSharp.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.pdb
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.pdb
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Dapper.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.pdb
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Google.Protobuf.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.barcodes.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.forms.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.io.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.kernel.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.layout.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.pdfa.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.sign.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\itext.svg.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySql.Data.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\MySqlConnector.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Buffers.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Memory.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Razor.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.pdb
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.AssemblyReference.cache
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CoreCompileInputs.cache
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\AccessMa.BEEF3D2A.Up2Date
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.dll
+D:\Meterbox Enhancement 05-04-2024\Meterbox Backupself\MeterBox 231223\APIs\AccessManager_API\AccessManager_API\obj\Debug\MyHub.pdb
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\ApplicationInsights.config
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\MyHub.dll.config
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\MyHub.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\MyHub.pdb
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\csc.exe.config
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\csc.rsp
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\csi.exe.config
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\csi.rsp
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Buffers.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Memory.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Numerics.Vectors.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\vbc.exe.config
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\vbc.rsp
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Common.Logging.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Dapper.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\EntityFramework.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Google.Protobuf.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.barcodes.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.forms.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.io.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.kernel.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.layout.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.pdfa.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.sign.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.svg.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\MySql.Data.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\MySqlConnector.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Owin.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Buffers.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Configuration.ConfigurationManager.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Memory.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Cors.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Http.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Razor.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\WebGrease.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\ZstdSharp.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\BouncyCastle.Crypto.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\BouncyCastle.Cryptography.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Common.Logging.pdb
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Common.Logging.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.pdb
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Common.Logging.Core.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Dapper.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Google.Protobuf.pdb
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Google.Protobuf.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.barcodes.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.forms.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.io.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.kernel.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.layout.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.pdfa.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.sign.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.styledxmlparser.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\itext.svg.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\K4os.Compression.LZ4.Streams.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\K4os.Hash.xxHash.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.Web.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Cors.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\MySql.Data.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\MySqlConnector.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Buffers.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.IO.Pipelines.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Memory.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Net.Http.Formatting.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Numerics.Vectors.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Threading.Tasks.Extensions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Http.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Http.Cors.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Helpers.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Mvc.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Optimization.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Razor.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.WebPages.Razor.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Antlr3.Runtime.pdb
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Newtonsoft.Json.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Web.Http.WebHost.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\EntityFramework.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\EntityFramework.SqlServer.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.AssemblyReference.cache
+D:\Projects\API\AccessManager_API\AccessManager_API\obj\Debug\AccessManager_API.csproj.CoreCompileInputs.cache
+D:\Projects\API\AccessManager_API\AccessManager_API\obj\Debug\AccessMa.BEEF3D2A.Up2Date
+D:\Projects\API\AccessManager_API\AccessManager_API\obj\Debug\MyHub.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\obj\Debug\MyHub.pdb
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Primitives.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Primitives.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Options.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Net.Http.Headers.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.ComponentModel.Annotations.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Text.Encodings.Web.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Options.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Net.Http.Headers.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\System.Text.Encodings.Web.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authorization.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Routing.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authorization.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Routing.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Projects\API\AccessManager_API\AccessManager_API\bin\Microsoft.Extensions.Hosting.Abstractions.xml

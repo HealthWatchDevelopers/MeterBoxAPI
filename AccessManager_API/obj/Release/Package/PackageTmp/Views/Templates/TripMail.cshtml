@@ -1,0 +1,136 @@
+﻿<style>
+    .master {
+        font-size: medium;
+        font-family: Verdana;
+    }
+    /*  Courier New, Courier, monospace;
+        Calibri
+    */
+</style>
+<div class="master">
+    Hi {{m_ClientName}}
+    <p>Thank you for travelling with Cartrac. Hope it would have been a pleasant journey.</p>
+    Below is your travel details:-
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td style="width:10%"></td>
+                <td style="width:10%"></td>
+                <td style="width:80%"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="width: auto;background-color:#ee3; border: 1px solid #cc3;padding:3px; margin: auto; box-shadow: 3px 3px 3px #888888; border-radius: 3px;">
+
+                        <table style="width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td>Distance</td>
+                                    <td style="white-space:nowrap;"><b>{{m_DistanceTotal}}</b> Kms</td>
+                                </tr>
+                                <tr>
+                                    <td>Waiting</td>
+                                    <td style="white-space:nowrap;"><b>{{m_WaitingTime}}</b> Hrs</td>
+                                </tr>
+                                <tr>
+                                    <td>Amount</td>
+                                    <td style="white-space:nowrap;"><b>{{m_AmountTotal}} AED</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height:3px;"></td>
+            </tr>
+            <tr>
+                <td>Pickup</td>
+                <td colspan="2" style="padding-left:15px;white-space:nowrap;">{{m_TripStartTime}}</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2" style="font-size: smaller;padding-left:15px;">{{job_m_PickAddress}}</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height:3px;"></td>
+            </tr>
+            <tr>
+                <td>Drop</td>
+                <td colspan="2" style="padding-left:15px;white-space:nowrap;">{{m_TripEndTime}}</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2" style="font-size: smaller;padding-left:15px;">{{job_m_DropAddress}}</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height:3px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table style="text-align:left;border:1px solid grey;padding:3px;width:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="white-space:nowrap;">Driver</td>
+                                <td style="white-space:nowrap;padding-left:25px;">{{m_DriverName}}</td>
+                                <td rowspan="4" style="padding-left:25px;">
+                                    <img src="cid:DvrPhoto" style="width: 80px;border:1px solid #ccc;">
+                                    <!--
+        <img style="width: 100px;border:1px solid #ccc;" src="http://www.doomtv.com/handlers/GetDvrPhoto.ashx?staffid=100000" />
+            -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="white-space:nowrap;">StaffID</td>
+                                <td style="white-space:nowrap;padding-left:25px;">{{m_DriverID}}</td>
+                            </tr>
+                            <tr>
+                                <td style="white-space:nowrap;">Mobile</td>
+                                <td style="white-space:nowrap;padding-left:25px;">{{m_DriverMobile}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height:3px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="white-space:nowrap;">TripNo <b>{{m_TripNo}}</b>, JobNo <b>{{m_JobID}}</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height:3px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table style="text-align:left;border:1px solid grey;padding:3px;background-color:#eee;">
+                        <tbody>
+                            <tr>
+                                <td>Vehicle</td>
+                                <td style="white-space:nowrap;padding-left:15px;">{{job_m_VehicleType}}</td>
+                            </tr>
+                            <tr>
+                                <td style="white-space:nowrap;">Plate No</td>
+                                <td style="white-space:nowrap;padding-left:15px;">{{trip_m_RegNo}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height:3px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Journey Route:-<br />
+                    <img src="cid:RouteMap"
+                         style="width: 500px;border:1px solid #ccc;margin-top:4px; box-shadow: 2px 2px 2px #888888; border-radius: 2px;">
+                    <!--    <img style="width: 100px;" src="http://www.doomtv.com/handlers/GetDvrPhoto.ashx?staffid=100000" />        -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
