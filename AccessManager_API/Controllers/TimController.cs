@@ -1547,10 +1547,10 @@ namespace MyHub.Controllers
         {
             if (MyGlobal.activeDB.Length == 0) MyGlobal.GetDomain();
             var loginResponse = new LoginResponse();
-           
+
             loginResponse.status = false;
             loginResponse.result = "";
-            
+
             loginResponse.m_Email = "";
             string sStatus = "";
             string sSQL = "";
@@ -1560,15 +1560,17 @@ namespace MyHub.Controllers
             //Test Starts chc1704 Sivaguru M on 06-04-2024
             //string testBirthdayDate = DateTime.Now.ToString("yyyy-MM-dd");
             List<string> stringCollection = new List<string>();
-            try {
-                
+            try
+            {
+
                 using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
                 {
 
                     con.Open();
-                    sSQL = "SELECT m_FName,m_StaffID,m_Designation FROM " + MyGlobal.activeDB + ".tbl_staffs " +
-                        "where (DATE_FORMAT(m_DOB, \"%m%d\") = DATE_FORMAT(CURDATE(), \"%m%d\")) ";
-
+                    //sSQL = "SELECT m_FName,m_Base,m_Team FROM " + MyGlobal.activeDB + ".tbl_staffs " +
+                    //"where m_Status = 'active' and (DATE_FORMAT(m_DOB, \"%m%d\") = DATE_FORMAT(CURDATE(), \"%m%d\")) ";
+                    sSQL = "SELECT m_FName,m_Base,m_Team FROM " + MyGlobal.activeDB + ".tbl_staffs " +
+                        "where m_Status = 'active' and (DATE_FORMAT(m_DOB, \"%m%d\") = DATE_FORMAT(CURDATE(), \"%m%d\")) ";
                     using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
                     {
                         using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
@@ -1576,14 +1578,21 @@ namespace MyHub.Controllers
                             if (reader.HasRows)
                             {
                                 while (reader.Read())
-                                {                                    
+                                {
+
                                     stringCollection.Add(reader.GetString(0));
                                     stringCollection.Add(reader.GetString(1));
                                     stringCollection.Add(reader.GetString(2));
-                                }
 
+                                    //Testing Starts on 25-04-2024 by Sivaguru M CHC1704
+                                    stringCollection.Add("|");
+                                    //Testing Ends
+                                }
+                                //Testing Starts on 25-04-2024 by Sivaguru M CHC1704
+                                stringCollection.RemoveAt(stringCollection.Count - 1);
+                                //Testing Ends
                             }
-                            
+
                         }
                     }
                 }
@@ -1591,11 +1600,28 @@ namespace MyHub.Controllers
             catch (Exception)
             {
 
-            }            
+            }
+
+
+
+
 
             // Concatenate the strings with '|' separator
-            string concatenatedString = string.Join("|", stringCollection);
+            //string concatenatedString = string.Join("|", stringCollection);//commented on 25-04-2024 by Sivaguru M
             //Test Ends
+
+            //Testing Starts on 25-04-2024 by Sivaguru M CHC1704
+            // Joining elements with custom separator
+            string concatenatedString = string.Join(" - ", stringCollection);
+
+            // Adding additional separator between two sets of data
+            concatenatedString = concatenatedString.Replace(" - | - ", " | ");
+
+            // Adding additional separator between two sets of data if necessary
+            concatenatedString = concatenatedString.Replace("| - ", "| ");
+            //Testing Ends
+
+
             try
             {
 
@@ -1620,7 +1646,7 @@ namespace MyHub.Controllers
 
                         sSQL = "SELECT m_Username,m_Email,m_FName as m_Name,m_Password,m_Status,m_Profile,m_StaffID,m_MenuKey,m_Mobile,m_PwdUpDateTime FROM " + MyGlobal.activeDB + ".tbl_staffs " +
                         "where (m_Username='" + email + "' or m_Email='" + email + "' or m_StaffID='" + email + "' or m_Mobile='" + email + "') ";
-                        
+
                         //Testing for AWS Starts 05-03-2024 by Sivaguru M CHC1704
                         //sSQL = "SELECT m_Username,m_Email,m_FName as m_Name,m_Password,m_Status,m_Profile,m_StaffID,m_MenuKey,m_Mobile,m_PwdUpDateTime FROM meterbox.tbl_staffs " +
                         //"where (m_Username='" + email + "' or m_Email='" + email + "' or m_StaffID='" + email + "' or m_Mobile='" + email + "') ";
@@ -1638,7 +1664,7 @@ namespace MyHub.Controllers
                                     if (reader.Read())
                                     {
 
-                                        if (reader["m_PwdUpDateTime"] != null) pwdUpdatedDate = (DateTime)reader["m_PwdUpDateTime"];//20-01-2024 by Sivaguru M CHC1704
+                                        pwdUpdatedDate = (DateTime)reader["m_PwdUpDateTime"];//20-01-2024 by Sivaguru M CHC1704
                                         sStatus += "2";
                                         if (reader["m_Email"] != null) loginResponse.m_Email = reader["m_Email"].ToString();
                                         if (reader["m_Name"] != null) loginResponse.m_Firstname = reader["m_Name"].ToString();
@@ -1702,21 +1728,21 @@ namespace MyHub.Controllers
                             //int diffEnds = 89;
                             if (differenceInDays >= 85 && differenceInDays <= 89)
                             {
-                                
+
                                 differenceInDays = 90 - differenceInDays;
 
-                                if (differenceInDays > 1 && differenceInDays !=0)
+                                if (differenceInDays > 1 && differenceInDays != 0)
                                 {
-                                    
+
                                     loginResponse.result = "Your Password will expired in '" + differenceInDays + "' days, please change your password soon!";
                                 }
                                 else
                                 {
-                                    
+
                                     loginResponse.result = "Your Password will expired in '" + differenceInDays + "' day, please change your password soon!";
                                 }
                                 //loginResponse.result = "<span style='font-weight:bold;color:red;'>Your Password will expired in '"+ differenceInDays +"' days, please change your password soon!</span>";
-                                
+
                                 //loginResponse.status = false;
                                 //Thread.Sleep(10000);
                                 //loginResponse.status = true;
@@ -1729,7 +1755,7 @@ namespace MyHub.Controllers
                             else if (differenceInDays == 90)
                             {
                                 loginResponse.result = "Your Password will expired today, please change your password soon!";
-                                
+
                             }
                             //Thread.Sleep(10000);
 
@@ -1767,7 +1793,7 @@ namespace MyHub.Controllers
                         //---------------------------
                         if (m_Status == "Success" && profile.Length > 0)
                         {
-                            
+
                             sSQL = "SELECT m_CompName,m_AttnStartDate FROM " + MyGlobal.activeDB + ".tbl_profile_info " +
                                 "where m_Profile='" + profile + "';";
                             using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
@@ -1860,20 +1886,20 @@ namespace MyHub.Controllers
             //    loginResponse.status = true;
             //    loginResponse.result = "<span style='font-weight:bold;color:red;'>Your Password will expired in '" + differenceInDays2 + "' days, please change your password soon!</span>";
             //    //loginResponse.status = false;
-                
-                
+
+
             //    Thread.Sleep(15000);
 
 
             //    //
 
             //}
-            
+
 
             return Json(loginResponse, JsonRequestBehavior.AllowGet);
-            
+
         }
-        
+
 
         [HttpPost]
         public ActionResult SignOut(string profile, string email,
