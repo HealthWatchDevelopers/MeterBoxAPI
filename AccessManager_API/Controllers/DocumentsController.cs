@@ -32,6 +32,17 @@ namespace MyHub.Controllers
                 string readText = System.IO.File.ReadAllText(path);
                 char[] delimiterChars = { ',' };
                 response.fileNames = readText.Split(delimiterChars).ToList();
+                path = Path.Combine(Server.MapPath("~/data/pulse/"));
+                //string[] folders = Directory.GetDirectories(path);
+
+                DirectoryInfo directoryInfo = new DirectoryInfo(path);
+
+                // Get the names of all folders in the directory
+                string[] folderNames = directoryInfo.GetDirectories()
+                    .Select(dir => dir.Name).OrderByDescending(name => name)
+                    .ToArray();
+
+                response.folderNames = folderNames;
             }
             /* from files
             DirectoryInfo d = new DirectoryInfo(Path.Combine(Server.MapPath("~/data/pulse/")));
