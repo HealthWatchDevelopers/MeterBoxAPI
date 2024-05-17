@@ -12,11 +12,13 @@ namespace MyHub.Models
         public bool status { get; set; }
         public string result { get; set; }
         public List<string> fileNames { get; set; }
+        public string[] folderNames { get; set; }
         public PulseFilesResponse()
         {
             status = false;
             result = "";
             fileNames = new List<string>();
+            folderNames =null;   
         }
     }
 

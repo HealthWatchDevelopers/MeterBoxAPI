@@ -20,11 +20,19 @@ using Microsoft.Ajax.Utilities;
 using System.Runtime.Remoting.Messaging;
 using Microsoft.AspNet.SignalR.Infrastructure;
 using System.Diagnostics;
+using System.Net.Mail;
+using System.Web.Helpers;
+using Google.Protobuf.WellKnownTypes;
 
 namespace MyHub.Controllers
 {
     public class TimController : Controller
     {
+        //    private readonly DapperSql _dp;
+        //    public TimController(DapperSql dp)
+        //    {
+        //        _dp = dp;
+        //    }
         DateTime pwdUpdatedDate;//20-01-2024 by Sivaguru M CHC1704
 
         // GET: Tim
@@ -1249,23 +1257,20 @@ namespace MyHub.Controllers
                     //__________________
                     if (m_Password.Length > 0)
                     {
-                        string ret = "";
-                        MailDoc mailDoc = new MailDoc();
-                        mailDoc.m_To = m_Email;
-                        mailDoc.Domain = MyGlobal.GetDomain();
-                        mailDoc.m_Subject = MyGlobal.GetDomain() + " Forget password response";
-                        mailDoc.m_Body = "Hi <b>" + m_Firstname + "</b><br><br>" +
-"Your password to login in " + MyGlobal.GetDomain() + " portal is  '<b>" + m_Password + "</b>'<br><br>" +
-"Thank you for using our service.<br>" +
-"<b>" + MyGlobal.GetDomain() + "</b><br>";
-                        //Thread newThread = new Thread(ChatHub.SendEmail_Doom);
-                        Thread newThread = new Thread(ChatHub.SendEmail_MeterBox);
-                        newThread.Start(mailDoc);
-                        ret += "by Email ";
-                        //---------------------------
+
+                        string Tomail = m_Email;
+                        string Subject = MyGlobal.GetDomain() + " Forget password response";
+                        string Body = "Hi <b>" + m_Firstname + "</b><br><br>" +
+                        "Your password to login in " + MyGlobal.GetDomain() + " portal is  '<b>" + m_Password + "</b>'<br><br>" +
+                        "Thank you for using our service.<br>" +
+                        "<b>" + MyGlobal.GetDomain() + "</b><br>";
+                        //17-05-2024 by Periya Samy P CHC1761
+                        MyGlobal.EmailSending(Tomail, Subject, Body, BodyHTML: true);
+
+
                         if (m_Mobile.Length > 0)
                         {
-                            MyGlobal.SendSMS("+91", m_Mobile, "Dear " + m_Firstname + ". Your '" + MyGlobal.GetDomain() + "' password is " + m_Password + ". Thanks for using our service.");
+                            MyGlobal.SendSMS("91", m_Mobile, "Dear " + m_Firstname + ". Your '" + MyGlobal.GetDomain() + "' password is " + m_Password + ". Thanks for using our service.");
                             tripResponse.result = "<span style='font-weight:bold;color:bold;color:blue;'>Password sent as email & SMS. Thanks.</span>";
                         }
                         else
@@ -1289,6 +1294,8 @@ namespace MyHub.Controllers
 
             return Json(tripResponse, JsonRequestBehavior.AllowGet);
         }
+
+
 
         [HttpPost]
         public ActionResult onChangePassword(string profile, string email, string password,
@@ -1408,8 +1415,6 @@ namespace MyHub.Controllers
 
                                     }
                                 }
-
-
                             }
                         }
                     }
@@ -1556,7 +1561,7 @@ namespace MyHub.Controllers
             string sSQL = "";
             string profile = "";
             string m_Status = "";
-
+            string PasswordUpdateDate = string.Empty;
             //Test Starts chc1704 Sivaguru M on 06-04-2024
             //string testBirthdayDate = DateTime.Now.ToString("yyyy-MM-dd");
             List<string> stringCollection = new List<string>();
@@ -1571,6 +1576,7 @@ namespace MyHub.Controllers
                     //"where m_Status = 'active' and (DATE_FORMAT(m_DOB, \"%m%d\") = DATE_FORMAT(CURDATE(), \"%m%d\")) ";
                     sSQL = "SELECT m_FName,m_Base,m_Team FROM " + MyGlobal.activeDB + ".tbl_staffs " +
                         "where m_Status = 'active' and (DATE_FORMAT(m_DOB, \"%m%d\") = DATE_FORMAT(CURDATE(), \"%m%d\")) ";
+
                     using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
                     {
                         using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
@@ -1583,6 +1589,7 @@ namespace MyHub.Controllers
                                     stringCollection.Add(reader.GetString(0));
                                     stringCollection.Add(reader.GetString(1));
                                     stringCollection.Add(reader.GetString(2));
+                                    //PasswordUpdateDate = reader.GetDateTime(3).ToString();
 
                                     //Testing Starts on 25-04-2024 by Sivaguru M CHC1704
                                     stringCollection.Add("|");
@@ -1603,6 +1610,19 @@ namespace MyHub.Controllers
             }
 
 
+
+
+
+
+
+
+
+            var passwordexprired = CheckPasswordExpired(email);
+            if (passwordexprired != null)
+            {
+                loginResponse.result = passwordexprired;
+                return Json(loginResponse, JsonRequestBehavior.AllowGet);
+            }
 
 
 
@@ -1901,6 +1921,70 @@ namespace MyHub.Controllers
         }
 
 
+        public static string CheckPasswordExpired(string m_StaffId)
+        {
+            string PasswordUpdateDate = string.Empty;
+            string sSQL = "SELECT m_PwdUpDateTime FROM " + MyGlobal.activeDB + ".tbl_staffs " +
+            "where (m_Username='" + m_StaffId + "' or m_Email='" + m_StaffId + "' or m_StaffID='" + m_StaffId + "' or m_Mobile='" + m_StaffId + "') ";
+            int i = 0;
+
+            using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
+            {
+
+                con.Open();
+
+                using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
+                {
+                    using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                i = 1;
+                                object pwdUpDateTimeObj = reader["m_PwdUpDateTime"];
+                                if (pwdUpDateTimeObj != DBNull.Value)
+                                {
+                                    PasswordUpdateDate = ((DateTime)pwdUpDateTimeObj).ToString();
+                                }
+                                else
+                                {
+                                    PasswordUpdateDate = null;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+            if (PasswordUpdateDate != null && PasswordUpdateDate != "")
+            {
+                string todayStr = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+                // Parse the strings into DateTime objects
+                DateTime fromDate = DateTime.Parse(PasswordUpdateDate);
+                DateTime today = DateTime.Parse(todayStr);
+
+                // Calculate the difference in days
+                TimeSpan difference = today - fromDate;
+                int daysDifference = (int)difference.TotalDays;
+                if (daysDifference > 90)
+                {
+                    return "<span style='font-weight:bold;color:red;'>Password is Expired!!!</span>";
+                }
+            }
+            else
+            {
+                if (i == 1)
+                {
+                    return "<span style='font-weight:bold;color:red;'>Password is Expired!!!</span>";
+                }
+            }
+
+            return null;
+        }
         [HttpPost]
         public ActionResult SignOut(string profile, string email,
             string name, string user, string staffid)
@@ -4161,5 +4245,96 @@ namespace MyHub.Controllers
             return Json(postResponse, JsonRequestBehavior.AllowGet);
         }
 
+
+        #region Change Password  17-05-2024 by Periya Samy P CHC1761
+        [HttpPost]
+        public async Task<ActionResult> ChangePassword(string email, string pass_new, string pass_old)
+        {
+            string profile = string.Empty;
+            string ErrorMessage = string.Empty;
+            string Query = string.Empty;
+
+            if (MyGlobal.activeDB.Length == 0) MyGlobal.GetDomain();
+            try
+            {
+                if (pass_new.Length == 0 || pass_old.Length == 0)
+                {
+                    return Json(new ResponseDTO(false, "Need all fields"));
+                }
+
+                if (Validation.PasswordValidation(pass_new) == false)
+                {
+                    return Json(new ResponseDTO(false, "Enter Valid Password"));
+                }
+
+                const int consecutiveCount = 5; // Minimum consecutive characters required
+
+                Query = $@"SELECT * FROM {MyGlobal.activeDB}.tbl_login_activity
+                           where m_StaffID='{email}' AND m_PwdUpdated = '{pass_new}' AND
+                           m_PwdUpDateTime >= NOW() - INTERVAL 2 YEAR";
+
+                var data = await DapperSql.SelectQuery<dynamic>(Query);
+                if (data.Any())
+                {
+                    return Json(new ResponseDTO(false, "Previously used password will not be use again!!!"));
+                }
+
+
+
+                Query = $@"select m_Password,m_Profile,m_Email from {MyGlobal.activeDB}.tbl_staffs  
+                                where m_StaffID='{email}'";
+
+                data = await DapperSql.SelectQuery<dynamic>(Query);
+                if (data.Any())
+                {
+                    var firstRow = data.First();
+                    profile = firstRow.m_Profile;
+                    email = firstRow.m_Email;
+
+                    for (int i = 0; i < email.Length - (consecutiveCount - 1); i++)
+                    {
+                        string consecutiveSubstring = email.Substring(i, consecutiveCount);
+
+                        if (pass_new.Contains(email))
+                        {
+                            return Json(new ResponseDTO(false, "Password should not contains same as Name!"));
+                        }
+                    }
+
+                    if (firstRow.m_Password.Equals(pass_old))
+                    {
+                        Query = $@"UPDATE {MyGlobal.activeDB}.tbl_staffs
+                                            SET m_Password='{pass_new}',m_PwdUpDateTime=NOW() 
+                                            WHERE m_Profile='{profile}' AND m_Email='{email}';";
+
+                        Query += $@"UPDATE {MyGlobal.activeDB}.tbl_login_activity
+                                                SET m_PwdUpdated='{pass_new}', m_PwdUpDateTime=NOW()
+                                                WHERE m_Profile='{profile}' AND m_email='{email}' AND m_Activity='SignIn'
+                                                ORDER BY m_Time DESC LIMIT 1;";
+
+                        var val = await DapperSql.Execute(Query);
+                        return Json(new ResponseDTO("Updated"));
+                    }
+                    else
+                    {
+                        return Json(new ResponseDTO(false, "Invalid Old Password"));
+                    }
+                }
+                else
+                {
+                    return Json(new ResponseDTO(false, "Invalid account"));
+                }
+            }
+            catch (MySqlException ex)
+            {
+                ErrorMessage = "Error-" + ex.Message;
+            }
+            return Json(new ResponseDTO(false, ErrorMessage));
+        }
+
+
+        #endregion
+
+
     }
-}
+    }

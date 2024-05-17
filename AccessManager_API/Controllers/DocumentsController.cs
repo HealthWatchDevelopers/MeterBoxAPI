@@ -31,7 +31,15 @@ namespace MyHub.Controllers
             {
                 string readText = System.IO.File.ReadAllText(path);
                 char[] delimiterChars = { ',' };
-                response.fileNames = readText.Split(delimiterChars).ToList();
+
+                string[] fileNamesArray  = readText.Split(delimiterChars);
+
+                response.fileNames = fileNamesArray
+               .Select(fileName => new { Name = fileName, Month = GetMonth(fileName) })
+               .OrderByDescending(item => item.Month)
+               .Select(item => item.Name)
+               .ToList();
+
                 path = Path.Combine(Server.MapPath("~/data/pulse/"));
                 //string[] folders = Directory.GetDirectories(path);
 
@@ -42,19 +50,34 @@ namespace MyHub.Controllers
                     .Select(dir => dir.Name).OrderByDescending(name => name)
                     .ToArray();
 
+
                 response.folderNames = folderNames;
             }
-            /* from files
-            DirectoryInfo d = new DirectoryInfo(Path.Combine(Server.MapPath("~/data/pulse/")));
-            FileInfo[] Files = d.GetFiles("*.png");
-
-            foreach (FileInfo file in Files)
-            {
-                response.fileNames.Add(file.Name);
-            }
-            */
+            
             return Json(response, JsonRequestBehavior.AllowGet);
         }
+
+
+        private static int GetMonth(string fileName)
+        {
+            // Example: Assuming file names are in the format "filename_MM.txt"
+            string monthPart = fileName.Split(' ').FirstOrDefault(); // Extract month part
+            string[] months ={ "Jan", "Feb", "Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" };
+            int monthIndex = Array.IndexOf(months, monthPart);
+
+            // Print the month index
+            if (monthIndex != -1)
+            {
+                return monthIndex;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
+
+
         [HttpGet]
         public FileResult GetPulsePDF(string filename, string user, string staffid, string year, string month, string days)
         {
