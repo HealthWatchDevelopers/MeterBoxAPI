@@ -90,11 +90,15 @@ namespace MyHub.Controllers
             }
             else if (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1)
             {
-                return "Data Source=localhost; User Id=Root; Password=C8Gdgq_9rXW5E4c$; Database=mysql;SslMode=none;Convert Zero Datetime=True";
-            }
-            else if (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1)
-            {
-                return "Data Source=localhost; User Id=Root; Password=xyz; Database=mysql;SslMode=none;Convert Zero Datetime=True";
+                //Testing Starts for AWS by Sivaguru M CHC1704 on 21-05-2024
+                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+
+                //    return "Data Source=localhost; User Id=Root; Password=C8Gdgq_9rXW5E4c$; Database=mysql;SslMode=none;Convert Zero Datetime=True";
+                //}
+                //else if (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1)
+                //{
+                //return "Data Source=localhost; User Id=Root; Password=xyz; Database=mysql;SslMode=none;Convert Zero Datetime=True";
+                //Testing Ends
             }
             else
             {                
