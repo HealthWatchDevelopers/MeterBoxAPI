@@ -19,7 +19,7 @@ namespace MyHub.Models
             result = "";
             fileNames = new List<string>();
             folderNames =null;   
-        }
+        } 
     }
 
     public class PulseFileUpload
