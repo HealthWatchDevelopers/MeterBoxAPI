@@ -31,7 +31,7 @@ namespace MyHub.Controllers
         //public static string activeDB = "meterbox";
         //Ends Alter for AWS testing process
         public static string activeDBLog = "";
-        public static string activeDomain = "";
+        public static string activeDomain = "chchealthcare";//Aws testing server by Sivaguru M CHC1704 on 23-05-2024
 
         public static readonly string[] constArrayMonths =
     { "Jan", "Feb", "Mar", "Apr","May","Jun","Jly","Aug","Sep","Oct","Nov","Dec" };
@@ -55,10 +55,12 @@ namespace MyHub.Controllers
             else if ((HttpContext.Current.Request.Url.Host.IndexOf("greyoffice", StringComparison.CurrentCultureIgnoreCase) > -1) ||
                 (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1))
             {
-                activeDB = "meterbox";
+                
+                
+                if (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1)
+                    activeDB = "meterbox";
                 activeDBLog = "meterbox_log";
-                if (HttpContext.Current.Request.Url.Host.IndexOf("greyoffice", StringComparison.CurrentCultureIgnoreCase) > -1) activeDomain = "greyoffice";
-                if (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1) activeDomain = "chchealthcare";
+                activeDomain = "chchealthcare";
                 return "Meter Box";
             }
             else if ((HttpContext.Current.Request.Url.Host.IndexOf("localhost", StringComparison.CurrentCultureIgnoreCase) > -1) ||
@@ -75,9 +77,15 @@ namespace MyHub.Controllers
                 }
                 else
                 {
-                    activeDomain = "greyoffice";
                     activeDB = "meterbox";
-                    return "Grey Office";
+                    activeDBLog = "meterbox_log";
+                    activeDomain = "chchealthcare";
+                    //activeDomain = "chc-healthwatch-502072296.us-east-1.elb.amazonaws.com:56000";
+                    return "Meter Box";
+
+                    //activeDomain = "greyoffice";
+                    //activeDB = "meterbox";
+                    //return "Grey Office";
                 }
             }
             return "";
