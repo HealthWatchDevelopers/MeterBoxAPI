@@ -1626,10 +1626,13 @@ namespace MyHub.Controllers
             {
 
                 //---
+                //Boolean passlenth;//Commented on 23-05-2024 by Sivaguru M CHC1704 for Removinf Password Policy for signin
+                Boolean passlenth = true;//alternate for the above line
 
-                Boolean passlenth;
-                passlenth = Check_Pass(password);
-                if (passlenth == true)
+
+                //passlenth = Check_Pass(password);//Commented on 23-05-2024 by Sivaguru M CHC1704 for Removing Password Policy for signin
+                //if (passlenth == true)//Commented on 23-05-2024 by Sivaguru M CHC1704 for Removing Password Policy for signin
+                if (passlenth)//alternate for the above line
                 {
 
                     //--
@@ -2276,52 +2279,53 @@ namespace MyHub.Controllers
         }
         */
 
-        private static bool Check_Pass(string password2)
-        {
-            int MinLength = 8;
-            int MaxLength = 20;
-            string SpecialCharacters = @"!@#$%^&*()-=_+[]{}|;:'""<>,.?/";
-            int MinUpperCase = 1;
-            int MinLowerCase = 1;
-            int MinDigits = 1;
-            int MinSpecialCharacters = 1;
+        //Commented on 17-05-2024 by Sivaguru M CHC1704 for Removinf Password Policy for signin Starts
+        //private static bool Check_Pass(string password2)
+        //{
+        //    int MinLength = 8;
+        //    int MaxLength = 20;
+        //    string SpecialCharacters = @"!@#$%^&*()-=_+[]{}|;:'""<>,.?/";
+        //    int MinUpperCase = 1;
+        //    int MinLowerCase = 1;
+        //    int MinDigits = 1;
+        //    int MinSpecialCharacters = 1;
 
-            if (password2.Length < MinLength || password2.Length > MaxLength)
-            {
-                Console.WriteLine("Password must be between {0} and {1} characters long.", MinLength, MaxLength);
-                return false;
-            }
+        //    if (password2.Length < MinLength || password2.Length > MaxLength)
+        //    {
+        //        Console.WriteLine("Password must be between {0} and {1} characters long.", MinLength, MaxLength);
+        //        return false;
+        //    }
 
-            // Check for at least one uppercase letter
-            if (password2.Count(char.IsUpper) < MinUpperCase)
-            {
-                Console.WriteLine("Password must contain at least {0} uppercase letter(s).", MinUpperCase);
-                return false;
-            }
+        //    // Check for at least one uppercase letter
+        //    if (password2.Count(char.IsUpper) < MinUpperCase)
+        //    {
+        //        Console.WriteLine("Password must contain at least {0} uppercase letter(s).", MinUpperCase);
+        //        return false;
+        //    }
 
-            // Check for at least one lowercase letter
-            if (password2.Count(char.IsLower) < MinLowerCase)
-            {
-                Console.WriteLine("Password must contain at least {0} lowercase letter(s).", MinLowerCase);
-                return false;
-            }
+        //    // Check for at least one lowercase letter
+        //    if (password2.Count(char.IsLower) < MinLowerCase)
+        //    {
+        //        Console.WriteLine("Password must contain at least {0} lowercase letter(s).", MinLowerCase);
+        //        return false;
+        //    }
 
-            // Check for at least one digit
-            if (password2.Count(char.IsDigit) < MinDigits)
-            {
-                Console.WriteLine("Password must contain at least {0} digit(s).", MinDigits);
-                return false;
-            }
+        //    // Check for at least one digit
+        //    if (password2.Count(char.IsDigit) < MinDigits)
+        //    {
+        //        Console.WriteLine("Password must contain at least {0} digit(s).", MinDigits);
+        //        return false;
+        //    }
 
-            // Check for at least one special character
-            if (password2.Count(c => SpecialCharacters.Contains(c)) < MinSpecialCharacters)
-            {
-                Console.WriteLine("Password must contain at least {0} special character(s).", MinSpecialCharacters);
-                return false;
-            }
-            return true;
+        //    // Check for at least one special character
+        //    if (password2.Count(c => SpecialCharacters.Contains(c)) < MinSpecialCharacters)
+        //    {
+        //        Console.WriteLine("Password must contain at least {0} special character(s).", MinSpecialCharacters);
+        //        return false;
+        //    }
+        //    return true;
 
-        }
+        //}//Commented on 23-05-2024 by Sivaguru M CHC1704 for Removinf Password Policy for signin Ends
 
 
         public ActionResult UpdateProfile(string profile, String m_id,
