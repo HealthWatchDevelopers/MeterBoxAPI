@@ -2320,7 +2320,9 @@ namespace MyHub.Controllers
                                                                         */
                                     Int32 key = 0;
                                     Int32 startdate = 0;
-                                    staffItem.m_PayscaleName = GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate);
+                                    //New User Creation error solved 27-05-2024 Starts 
+                                    staffItem.m_PayscaleName = ((staffItem.m_StaffID != null && staffItem.m_StaffID != "") ? GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate) : null);
+                                    //ends
                                     staffItem.m_PayscaleKey = key;
                                     staffItem.m_PayscaleStartDate = startdate;
                                     setStaffsResponse.items.Add(staffItem);
@@ -9700,7 +9702,9 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                                     */
                                     Int32 key = 0;
                                     Int32 startdate = 0;
-                                    staffItem.m_PayscaleName = GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate);
+                                    //New User Creation error solved 27-05-2024 Starts 
+                                    staffItem.m_PayscaleName = ((staffItem.m_StaffID != null && staffItem.m_StaffID != "") ? GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate) : null);
+                                    //ends
                                     staffItem.m_PayscaleKey = key;
                                     staffItem.m_PayscaleStartDate = startdate;
                                     getStaffResponse.staffItem = staffItem;
