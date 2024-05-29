@@ -111,10 +111,6 @@ namespace MyHub.Controllers
                 //return "Data Source=localhost; User Id=Root; Password=xyz; Database=mysql;SslMode=none;Convert Zero Datetime=True";
                 //Testing Ends
             }
-            else
-            {
-                return "Data Source=localhost; User Id=root; Password=xyz; Database=mysql;SslMode=none;Convert Zero Datetime=True";
-            }
             else if (HttpContext.Current.Request.Url.Host.IndexOf("chc-healthwatch-502072296.us-east-1.elb.amazonaws.com", StringComparison.CurrentCultureIgnoreCase) > -1)
             {
                 return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";

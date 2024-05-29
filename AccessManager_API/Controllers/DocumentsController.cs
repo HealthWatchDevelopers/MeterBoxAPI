@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Google.Protobuf.WellKnownTypes;
+using Microsoft.AspNetCore.Http;
 using MyHub.Models;
 using MyHub.Service;
 using Newtonsoft.Json;
@@ -166,10 +167,29 @@ namespace MyHub.Controllers
 
         #region Created by Periya Samy P CHC1761 on 29-04-2024
         [HttpPost]
-        public ActionResult SourceFileUpload()
+        public async Task<ActionResult> SourceFileUpload()
         {
+            string ErrorMessage = string.Empty;
+            try
+            {
+                HttpPostedFileBase file = Request.Files["sourcefile"];
+                string Project = Request.Form["project"];
+                string ProjectType = Request.Form["projecttype"];
+                DateTime date = DateTime.Now;
+                string formattedDate = date.ToString("MM/dd/yyyy hh:mm:ss tt");
+                string Name = Request.Form["username"] + " " + formattedDate;
+                var filePath = Path.Combine("D:\\", @"File Movement", Project, ProjectType);
+                FileUpload.UploadFile(filePath, Name, file);
+                return Json(new ResponseDTO("Uploaded"));
 
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = "Error-" + ex.Message;
+            }
+            return Json(new ResponseDTO(false, ErrorMessage));
         }
         #endregion
+
     }
 }

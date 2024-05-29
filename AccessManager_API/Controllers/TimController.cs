@@ -1616,13 +1616,14 @@ namespace MyHub.Controllers
 
 
 
-
+            #region check password Expired Periya samy
             var passwordexprired = CheckPasswordExpired(email);
             if (passwordexprired != null)
             {
                 loginResponse.result = passwordexprired;
                 return Json(loginResponse, JsonRequestBehavior.AllowGet);
             }
+            #endregion
 
 
 
@@ -4340,5 +4341,32 @@ namespace MyHub.Controllers
         #endregion
 
 
+        #region Created by Periya Samy P CHC1761 on 29-05-2024
+        [HttpPost]
+        public async Task<ActionResult> CheckSourceMenu(string staffid)
+        {
+            string ErrorMessage = string.Empty;
+            try
+            {
+                string Query = $@"SELECT m_StaffID
+                            FROM meterbox.tbl_staffs
+                            WHERE m_Designation REGEXP 'Developer|GM - Information Technology' AND m_StaffID ='{staffid}';";
+
+                var data = await DapperSql.SelectQuery<dynamic>(Query);
+                if (data.Any())
+                {
+                    return Json(new ResponseDTO(true));
+                }
+                return Json(new ResponseDTO(false));
+
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = "Error-" + ex.Message;
+            }
+            return Json(new ResponseDTO(false, ErrorMessage));
+        }
+        #endregion
+
     }
-    }
+}
