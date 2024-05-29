@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using iText.Layout.Borders;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 using MyHub.Hubs;
@@ -11,6 +12,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -6125,7 +6127,7 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                 "union all select 'team',m_Name,'','' from(select 'team',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_teams where m_Profile = '" + profile + "' order by m_Name) as team " +
                 "union all select 'base',m_Name,'','' from(select 'base',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_bases where m_Profile = '" + profile + "' order by m_Name) as base " +
 
-                "union all select 'grade',m_Name,'','' from(select 'grade',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_grades where m_Profile = '" + profile + "' and m_Band='" + band + "' order by m_Order) as grade " +
+                //"union all select 'grade',m_Name,'','' from(select 'grade',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_grades where m_Profile = '" + profile + "' and m_Band='" + band + "' order by m_Order desc) as grade " +
                 "union all select 'payscale',m_Name,m_Amount,m_Key from(" + sPayScaleBit + ") as payscale " +
                 "union all select 'bank',m_Name,m_Branch,m_IFSC from(select 'bank',m_Name,m_Branch,m_IFSC from " + MyGlobal.activeDB + ".tbl_misc_staffbanks where m_Profile = '" + profile + "' and m_Name!='new' order by m_Name) as bank order by desig,m_Name ";
 
@@ -6149,7 +6151,7 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                                     if (reader.GetString(0).Equals("team")) fixedArrayResponse.sarTeams.Add(reader.GetString(1));
                                     if (reader.GetString(0).Equals("base")) fixedArrayResponse.sarBases.Add(reader.GetString(1));
                                     //if (reader.GetString(0).Equals("band")) fixedArrayResponse.sarBands.Add(reader.GetString(1));//on 27-05-2024
-                                    if (reader.GetString(0).Equals("grade")) fixedArrayResponse.sarGrades.Add(reader.GetString(1));
+                                    //if (reader.GetString(0).Equals("grade")) fixedArrayResponse.sarGrades.Add(reader.GetString(1));//on 29-05-2024
                                     //if (reader.GetString(0).Equals("rosteroption")) fixedArrayResponse.sarRosterOptions.Add(reader.GetString(1));
                                     if (reader.GetString(0).Equals("payscale"))
                                     {
@@ -6173,6 +6175,33 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                         }
                     }
                 }
+
+                //Starts Adding Grade Related Query by Sivaguru M CHC1704 on 27-05-2024
+                string sSQLGrade = "select 'grade',m_Name,'','' from(select 'grade', m_Name, m_Profile from " + MyGlobal.activeDB + ".tbl_misc_grades where m_Profile = '" + profile + "' and m_Band = '" + band + "') as grade order by m_Name desc";
+                using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
+                {
+                    con.Open();
+
+                    using (MySqlCommand mySqlCommand = new MySqlCommand(sSQLGrade, con))
+                    {
+                        using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                while (reader.Read())
+                                {
+
+                                    if (reader.GetString(0).Equals("grade")) fixedArrayResponse.sarGrades.Add(reader.GetString(1));
+
+
+                                }
+                            }
+                        }
+                        //fixedArrayResponse.status = true;
+                    }
+                }
+
+                //Ends Grade Related Query
 
                 //Starts Adding Band Related Query by Sivaguru M CHC1704 on 27-05-2024
                 string sSQLBand = "select 'band',m_Name,'','' from(select 'band',m_Name,m_Profile,m_Order from " + MyGlobal.activeDB + ".tbl_misc_bands where m_Profile = '" + profile + "' order by m_Order asc) as band";
