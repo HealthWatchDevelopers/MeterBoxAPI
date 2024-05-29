@@ -11619,33 +11619,41 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                             }
                         }
                     }
-                    sSQL = "select *,lst.m_PayscaleName as PayscaleName from " + MyGlobal.activeDB + ".tbl_payscale_effective eff " +
-                        "left join (select * from " + MyGlobal.activeDB + ".tbl_payslips_list where m_PayscaleName is not null group by m_PayscaleName) lst on lst.m_Profile=eff.m_Profile and lst.m_StaffID=eff.m_StaffID and lst.m_PayscaleName=eff.m_Payscale and lst.m_PayscaleKey=eff.m_Key " +
-                        "where eff.m_Profile='" + profile + "' and eff.m_StaffID='" + staffid + "' " +
-                        "order by eff.m_StartDate desc;";
-                    using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
+
+                    //Starts New User Creation Error rectified on 29-05-2024
+
+                    if (staffid != null && staffid != "")
                     {
-                        using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
+                        sSQL = "select *,lst.m_PayscaleName as PayscaleName from " + MyGlobal.activeDB + ".tbl_payscale_effective eff " +
+                            "left join (select * from " + MyGlobal.activeDB + ".tbl_payslips_list where m_PayscaleName is not null group by m_PayscaleName) lst on lst.m_Profile=eff.m_Profile and lst.m_StaffID=eff.m_StaffID and lst.m_PayscaleName=eff.m_Payscale and lst.m_PayscaleKey=eff.m_Key " +
+                            "where eff.m_Profile='" + profile + "' and eff.m_StaffID='" + staffid + "' " +
+                            "order by eff.m_StartDate desc;";
+                        using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
                         {
-                            if (reader.HasRows)
+                            using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
                             {
-                                while (reader.Read())
+                                if (reader.HasRows)
                                 {
-                                    PayscalesAssignedRow row = new PayscalesAssignedRow();
-                                    row.m_id = reader.GetInt32(reader.GetOrdinal("m_id"));
-                                    row.name = reader.GetString(reader.GetOrdinal("m_Payscale"));
-                                    row.effectivedate = reader.GetInt32(reader.GetOrdinal("m_key"));
-                                    row.startdate = reader.GetInt32(reader.GetOrdinal("m_StartDate"));
-                                    row.ctc = GetCTC(profile, row.name, row.effectivedate);
-                                    row.createdby = reader.IsDBNull(reader.GetOrdinal("m_CreatedBy")) ? "" : reader.GetString(reader.GetOrdinal("m_CreatedBy"));
-                                    row.createdtime = reader.IsDBNull(reader.GetOrdinal("m_CreatedTime")) ? "" : reader.GetString(reader.GetOrdinal("m_CreatedTime"));
-                                    row.allowdelete = reader.IsDBNull(reader.GetOrdinal("PayscaleName")) ? 1 : 0;
-                                    payscalesAssignedResponse.rows.Add(row);
+                                    while (reader.Read())
+                                    {
+                                        PayscalesAssignedRow row = new PayscalesAssignedRow();
+                                        row.m_id = reader.GetInt32(reader.GetOrdinal("m_id"));
+                                        row.name = reader.GetString(reader.GetOrdinal("m_Payscale"));
+                                        row.effectivedate = reader.GetInt32(reader.GetOrdinal("m_key"));
+                                        row.startdate = reader.GetInt32(reader.GetOrdinal("m_StartDate"));
+                                        row.ctc = GetCTC(profile, row.name, row.effectivedate);
+                                        row.createdby = reader.IsDBNull(reader.GetOrdinal("m_CreatedBy")) ? "" : reader.GetString(reader.GetOrdinal("m_CreatedBy"));
+                                        row.createdtime = reader.IsDBNull(reader.GetOrdinal("m_CreatedTime")) ? "" : reader.GetString(reader.GetOrdinal("m_CreatedTime"));
+                                        row.allowdelete = reader.IsDBNull(reader.GetOrdinal("PayscaleName")) ? 1 : 0;
+                                        payscalesAssignedResponse.rows.Add(row);
+                                    }
+                                    payscalesAssignedResponse.status = true;
                                 }
-                                payscalesAssignedResponse.status = true;
                             }
                         }
                     }
+
+                    //Ends New User Creation Error rectified
                 }
             }
             catch (MySqlException ex)
