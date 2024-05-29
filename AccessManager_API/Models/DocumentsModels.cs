@@ -18,8 +18,8 @@ namespace MyHub.Models
             status = false;
             result = "";
             fileNames = new List<string>();
-            folderNames = null;
-        }
+            folderNames =null;   
+        } 
     }
 
     public class PulseFileUpload

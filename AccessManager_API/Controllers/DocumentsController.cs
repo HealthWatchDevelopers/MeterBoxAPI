@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Google.Protobuf.WellKnownTypes;
+using Microsoft.AspNetCore.Http;
 using MyHub.Models;
 using MyHub.Service;
 using Newtonsoft.Json;
@@ -33,7 +34,7 @@ namespace MyHub.Controllers
                 string readText = System.IO.File.ReadAllText(path);
                 char[] delimiterChars = { ',' };
 
-                string[] fileNamesArray = readText.Split(delimiterChars);
+                string[] fileNamesArray  = readText.Split(delimiterChars);
 
                 response.fileNames = fileNamesArray
                .Select(fileName => new { Name = fileName, Month = GetMonth(fileName) })
@@ -54,7 +55,7 @@ namespace MyHub.Controllers
 
                 response.folderNames = folderNames;
             }
-
+            
             return Json(response, JsonRequestBehavior.AllowGet);
         }
 
@@ -63,7 +64,7 @@ namespace MyHub.Controllers
         {
             // Example: Assuming file names are in the format "filename_MM.txt"
             string monthPart = fileName.Split(' ').FirstOrDefault(); // Extract month part
-            string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+            string[] months ={ "Jan", "Feb", "Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" };
             int monthIndex = Array.IndexOf(months, monthPart);
 
             // Print the month index
@@ -76,6 +77,8 @@ namespace MyHub.Controllers
                 return -1;
             }
         }
+
+
 
         [HttpGet]
         public FileResult GetPulsePDF(string filename, string user, string staffid, string year, string month, string days)
@@ -132,8 +135,6 @@ namespace MyHub.Controllers
             try
             {
                 var postResponse = new PostResponse();
-                
-
                 HttpPostedFileBase file = Request.Files["pdf"];
                 HttpPostedFileBase img = Request.Files["image"];
                 string dateString = Request.Form["date"];
@@ -164,6 +165,31 @@ namespace MyHub.Controllers
         }
         #endregion
 
+        #region Created by Periya Samy P CHC1761 on 29-04-2024
+        [HttpPost]
+        public async Task<ActionResult> SourceFileUpload()
+        {
+            string ErrorMessage = string.Empty;
+            try
+            {
+                HttpPostedFileBase file = Request.Files["sourcefile"];
+                string Project = Request.Form["project"];
+                string ProjectType = Request.Form["projecttype"];
+                DateTime date = DateTime.Now;
+                string formattedDate = date.ToString("MM/dd/yyyy hh:mm:ss tt");
+                string Name = Request.Form["username"] + " " + formattedDate;
+                var filePath = Path.Combine("D:\\", @"File Movement", Project, ProjectType);
+                FileUpload.UploadFile(filePath, Name, file);
+                return Json(new ResponseDTO("Uploaded"));
+
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = "Error-" + ex.Message;
+            }
+            return Json(new ResponseDTO(false, ErrorMessage));
+        }
+        #endregion
 
     }
 }

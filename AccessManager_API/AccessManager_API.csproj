@@ -407,12 +407,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DapperSql.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\MyFunctions.cs" />
     <Compile Include="App_Start\MyGlobal.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\Validation.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccessmanagerController_Logs.cs" />
     <Compile Include="Controllers\AccessmanagerController.cs" />
@@ -457,6 +459,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ParcelModels.cs" />
     <Compile Include="Models\MISModels.cs" />
+    <Compile Include="Models\ResponseDTO.cs" />
     <Compile Include="Models\TimModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\FileUpload.cs" />

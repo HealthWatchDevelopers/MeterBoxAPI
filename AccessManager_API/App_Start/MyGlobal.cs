@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
+using Microsoft.Extensions.Hosting;
 using MyHub.Hubs;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Web;
 
@@ -94,7 +97,7 @@ namespace MyHub.Controllers
         {
             if (HttpContext.Current.Request.Url.Host.IndexOf("greyoffice", StringComparison.CurrentCultureIgnoreCase) > -1)
             {
-                return "Data Source=localhost; User Id=Root; Password=MyGreyoffice; Database=mysql;SslMode=none";
+                return "Data Source=localhost; User Id=root; Password=MyGreyoffice; Database=mysql;SslMode=none";
             }
             else if (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1)
             {
@@ -108,13 +111,18 @@ namespace MyHub.Controllers
                 //return "Data Source=localhost; User Id=Root; Password=xyz; Database=mysql;SslMode=none;Convert Zero Datetime=True";
                 //Testing Ends
             }
+            else if (HttpContext.Current.Request.Url.Host.IndexOf("chc-healthwatch-502072296.us-east-1.elb.amazonaws.com", StringComparison.CurrentCultureIgnoreCase) > -1)
+            {
+                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+            }
+            else if (HttpContext.Current.Request.Url.Host.IndexOf("chg-healthwatch-1983770325.ap-south-1.elb.amazonaws.com", StringComparison.CurrentCultureIgnoreCase) > -1)
+            {
+                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+            }
             else
             {
                 //return "Server=10.0.135.112; User=meterboxuser; Password=meterbox@1234;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
-
-                //Testing Starts
-                //return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
-                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+                return "Server=localhost; User=root; Password=Root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
                 //Testing Ends
 
                 //return "Data Source=localhost; User Id=root; Password=root; Database=mysql;SslMode=none;Convert Zero Datetime=True";
@@ -124,6 +132,66 @@ namespace MyHub.Controllers
         {
             return HttpContext.Current.Request.Url.Host + ":" + HttpContext.Current.Request.Url.Port;
         }
+
+        public static string EmailCredentioal(string value)
+        {
+            if (value == "MailId")
+            {
+                return "hwitch34@gmail.com";
+
+            }
+            else
+            {
+                return "rxql zpyw gllf jsto";
+            }
+        }
+
+        #region Send Email template 17-05-2024 by Periya Samy P CHC1761
+        public static string EmailSending(string to, string subject, string body, string imagePath = null, bool BodyHTML = false)
+        {
+            //string imagePath = "D:/Office/Image/officename.png";
+
+            string EmaiId = EmailCredentioal("MailId");
+            string Password = EmailCredentioal("Password");
+            try
+            {
+                using (var smtpClient = new SmtpClient("smtp.gmail.com"))
+                {
+                    smtpClient.Port = 587;
+                    smtpClient.Credentials = new NetworkCredential(EmaiId, Password);
+                    smtpClient.EnableSsl = true;
+
+                    using (var mailMessage = new MailMessage())
+                    {
+                        mailMessage.From = new MailAddress(EmaiId);
+                        mailMessage.To.Add(to);
+                        mailMessage.Subject = subject;
+                        mailMessage.Body = body;
+                        if (BodyHTML == true)
+                        {
+                            mailMessage.IsBodyHtml = true;
+                        }
+
+                        // Add image as attachment
+                        if (imagePath != null)
+                        {
+                            Attachment attachment = new Attachment(imagePath);
+                            attachment.ContentId = "image";
+                            mailMessage.Attachments.Add(attachment);
+                        }
+                        smtpClient.Send(mailMessage);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return null;
+        }
+        #endregion
+
         public static string GetRandomNo(int min, int max)
         {
             Random r = new Random();
@@ -344,9 +412,10 @@ namespace MyHub.Controllers
             try
             {
                 var responseString = "";
+                String sMobileForSendingSMS = code + mobile;
+
                 using (var client = new WebClient())
                 {
-                    String sMobileForSendingSMS = code + mobile;
                     //if (mobile.Length == 10) sMobileForSendingSMS = "+91" + mobile;
                     var values = new NameValueCollection();
                     values["user"] = "meterbox";
@@ -423,7 +492,7 @@ namespace MyHub.Controllers
         {
             return HttpUtility.UrlEncode(plainText);
         }
-        public static string GetPureString(MySqlDataReader reader,string sFldName)
+        public static string GetPureString(MySqlDataReader reader, string sFldName)
         {
             int ord = reader.GetOrdinal(sFldName);
             if (reader.IsDBNull(ord)) return "";
@@ -434,7 +503,7 @@ namespace MyHub.Controllers
             int ord = reader.GetOrdinal(sFldName);
             if (reader.IsDBNull(ord)) return "";
             return reader.GetDateTime(ord).ToString("dd-MM-yyyy");
-            
+
         }
         public static Int16 GetPureInt16(MySqlDataReader reader, string sFldName)
         {
@@ -514,7 +583,7 @@ namespace MyHub.Controllers
             }
             return "";
         }
-        public static Int32 GetNewVchNo(MySqlConnection con,string profile)
+        public static Int32 GetNewVchNo(MySqlConnection con, string profile)
         {
             Int32 iVchNo = 0;
             string sSQL = "select max(m_VchNo) from " + MyGlobal.activeDB + ".tbl_accounts " +
@@ -623,4 +692,4 @@ namespace MyHub.Controllers
                                 trans.Rollback();
                                 postResponse.result = "Error " + ex.Message;
                             }
-*/                            
+*/

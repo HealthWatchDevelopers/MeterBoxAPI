@@ -18,27 +18,8 @@ namespace MyHub.Service
                 var folderName = Path.Combine("data", @"pulse", year);
                 var filePath = HttpContext.Current.Server.MapPath("~");
                 var fullPath = Path.Combine(filePath, folderName);
-                string extension = System.IO.Path.GetExtension(pro_img.FileName);
-                docName = FileName + extension;
-                var fileName = docName;
 
-                // Check if the directory exists, if not, create it
-                if (!Directory.Exists(fullPath))
-                {
-                    Directory.CreateDirectory(fullPath);
-                }
-
-                // Combine the directory path with the file name
-                fullPath = Path.Combine(fullPath, fileName);
-
-                // Save the file
-                using (var stream = new FileStream(fullPath, FileMode.Create))
-                {
-                    pro_img.InputStream.CopyTo(stream);
-                }
-
-                // Dispose the stream after copying
-                pro_img.InputStream.Dispose();
+                UploadFile(fullPath, FileName, pro_img);
 
                 // If fileno is 2, call ModifyIndexFile
                 if (fileno == 2)
@@ -48,6 +29,36 @@ namespace MyHub.Service
             }
             return "Image Uploaded";
         }
+
+
+        internal static void UploadFile(string filePath,string FileName,HttpPostedFileBase file)
+        {
+            //var fullPath = Path.Combine(filePath, FileName);
+            FileName = FileName.Replace("/", "")
+                            .Replace(":", "");
+            string extension = System.IO.Path.GetExtension(file.FileName);
+            string docName = FileName + extension;
+            var fileName = docName;
+
+            // Check if the directory exists, if not, create it
+            if (!Directory.Exists(filePath))
+            {
+                Directory.CreateDirectory(filePath);
+            }
+
+            // Combine the directory path with the file name
+            filePath = Path.Combine(filePath, fileName);
+
+            // Save the file
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                file.InputStream.CopyTo(stream);
+            }
+
+            // Dispose the stream after copying
+            file.InputStream.Dispose();
+        }
+
 
         internal static void ModifyIndexFile(string filepath, string additionalFileName)
         {
