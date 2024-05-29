@@ -21,12 +21,13 @@ namespace MyHub.Controllers
         {
             return View();
         }
+
         [HttpGet]
         public ActionResult GetPulseList(string profile, string user, string staffid, string year, string month, string days)
         {
             PulseFilesResponse response = new PulseFilesResponse();
             //response.fileNames.Add("eugene");
-            string path = Path.Combine(Server.MapPath("~/data/pulse/"+year+"/")) + "index.txt";
+            string path = Path.Combine(Server.MapPath("~/data/pulse/" + year + "/")) + "index.txt";
             if (System.IO.File.Exists(path))
             {
                 string readText = System.IO.File.ReadAllText(path);

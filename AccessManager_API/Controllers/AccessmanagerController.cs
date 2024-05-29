@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using iText.Layout.Borders;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 using MyHub.Hubs;
@@ -11,6 +12,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -2320,7 +2322,9 @@ namespace MyHub.Controllers
                                                                         */
                                     Int32 key = 0;
                                     Int32 startdate = 0;
-                                    staffItem.m_PayscaleName = GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate);
+                                    //New User Creation error solved 27-05-2024 Starts 
+                                    staffItem.m_PayscaleName = ((staffItem.m_StaffID != null && staffItem.m_StaffID != "") ? GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate) : null);
+                                    //ends
                                     staffItem.m_PayscaleKey = key;
                                     staffItem.m_PayscaleStartDate = startdate;
                                     setStaffsResponse.items.Add(staffItem);
@@ -6101,17 +6105,35 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                 "where x.m_Profile = '" + profile + "' order by x.m_Name asc,x.m_Key desc";
                 // group by x.m_Name
 
+                //Commented on 27-05-2024 for testing purpose band issues Starts and beloline are commented
+                //sSQL = "" +
+                //"select 'desig',m_Name,'','' from(select 'desig',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_titles where m_Profile = '" + profile + "' order by m_Name) as desig " +
+                //"union all select 'roll',m_Name,'','' from(select 'roll',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_rolls where m_Profile = '" + profile + "' order by m_Name) as roll " +
+                //"union all select 'team',m_Name,'','' from(select 'team',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_teams where m_Profile = '" + profile + "' order by m_Name) as team " +
+                //"union all select 'base',m_Name,'','' from(select 'base',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_bases where m_Profile = '" + profile + "' order by m_Name) as base " +
+                //"union all select 'band',m_Name,'','' from(select 'band',m_Name,m_Profile,m_Order from " + MyGlobal.activeDB + ".tbl_misc_bands where m_Profile = '" + profile + "' order by m_Order asc) as band  " +
+                //"union all select 'grade',m_Name,'','' from(select 'grade',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_grades where m_Profile = '" + profile + "' and m_Band='" + band + "' order by m_Order) as grade " +
+                //"union all select 'payscale',m_Name,m_Amount,m_Key from(" + sPayScaleBit + ") as payscale " +
+                //"union all select 'bank',m_Name,m_Branch,m_IFSC from(select 'bank',m_Name,m_Branch,m_IFSC from " + MyGlobal.activeDB + ".tbl_misc_staffbanks where m_Profile = '" + profile + "' and m_Name!='new' order by m_Name) as bank order by desig,m_Name ";
+                //Commented Lines Ends
 
+                /////"union all select 'rosteroption',m_Name,'','' from(select 'rosteroption',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_rosteroptions where m_Profile = '" + profile + "' order by m_Order) as rosteroption " +
+
+
+                //Starts Band Related Issue Testing on 27-05-2024 by Sivaguru M CHC1704
                 sSQL = "" +
                 "select 'desig',m_Name,'','' from(select 'desig',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_titles where m_Profile = '" + profile + "' order by m_Name) as desig " +
                 "union all select 'roll',m_Name,'','' from(select 'roll',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_rolls where m_Profile = '" + profile + "' order by m_Name) as roll " +
                 "union all select 'team',m_Name,'','' from(select 'team',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_teams where m_Profile = '" + profile + "' order by m_Name) as team " +
                 "union all select 'base',m_Name,'','' from(select 'base',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_bases where m_Profile = '" + profile + "' order by m_Name) as base " +
-                "union all select 'band',m_Name,'','' from(select 'band',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_bands where m_Profile = '" + profile + "' order by m_Name) as band " +
-                "union all select 'grade',m_Name,'','' from(select 'grade',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_grades where m_Profile = '" + profile + "' and m_Band='" + band + "' order by m_Order) as grade " +
+
+                //"union all select 'grade',m_Name,'','' from(select 'grade',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_grades where m_Profile = '" + profile + "' and m_Band='" + band + "' order by m_Order desc) as grade " +
                 "union all select 'payscale',m_Name,m_Amount,m_Key from(" + sPayScaleBit + ") as payscale " +
                 "union all select 'bank',m_Name,m_Branch,m_IFSC from(select 'bank',m_Name,m_Branch,m_IFSC from " + MyGlobal.activeDB + ".tbl_misc_staffbanks where m_Profile = '" + profile + "' and m_Name!='new' order by m_Name) as bank order by desig,m_Name ";
-                //"union all select 'rosteroption',m_Name,'','' from(select 'rosteroption',m_Name,m_Profile from " + MyGlobal.activeDB + ".tbl_misc_rosteroptions where m_Profile = '" + profile + "' order by m_Order) as rosteroption " +
+
+                //"union all select 'band',m_Name,'','' from(select 'band',m_Name,m_Profile,m_Order from " + MyGlobal.activeDB + ".tbl_misc_bands where m_Profile = '" + profile + "' order by m_Order asc) as band  " +
+                //Ends Band Related Issue Testing
+
                 using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
                 {
                     con.Open();
@@ -6128,8 +6150,8 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                                     if (reader.GetString(0).Equals("roll")) fixedArrayResponse.sarRolls.Add(reader.GetString(1));
                                     if (reader.GetString(0).Equals("team")) fixedArrayResponse.sarTeams.Add(reader.GetString(1));
                                     if (reader.GetString(0).Equals("base")) fixedArrayResponse.sarBases.Add(reader.GetString(1));
-                                    if (reader.GetString(0).Equals("band")) fixedArrayResponse.sarBands.Add(reader.GetString(1));
-                                    if (reader.GetString(0).Equals("grade")) fixedArrayResponse.sarGrades.Add(reader.GetString(1));
+                                    //if (reader.GetString(0).Equals("band")) fixedArrayResponse.sarBands.Add(reader.GetString(1));//on 27-05-2024
+                                    //if (reader.GetString(0).Equals("grade")) fixedArrayResponse.sarGrades.Add(reader.GetString(1));//on 29-05-2024
                                     //if (reader.GetString(0).Equals("rosteroption")) fixedArrayResponse.sarRosterOptions.Add(reader.GetString(1));
                                     if (reader.GetString(0).Equals("payscale"))
                                     {
@@ -6149,10 +6171,68 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                                     }
                                 }
                             }
-                            fixedArrayResponse.status = true;
+                            //fixedArrayResponse.status = true;
                         }
                     }
                 }
+
+                //Starts Adding Grade Related Query by Sivaguru M CHC1704 on 27-05-2024
+                string sSQLGrade = "select 'grade',m_Name,'','' from(select 'grade', m_Name, m_Profile from " + MyGlobal.activeDB + ".tbl_misc_grades where m_Profile = '" + profile + "' and m_Band = '" + band + "') as grade order by m_Name desc";
+                using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
+                {
+                    con.Open();
+
+                    using (MySqlCommand mySqlCommand = new MySqlCommand(sSQLGrade, con))
+                    {
+                        using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                while (reader.Read())
+                                {
+
+                                    if (reader.GetString(0).Equals("grade")) fixedArrayResponse.sarGrades.Add(reader.GetString(1));
+
+
+                                }
+                            }
+                        }
+                        //fixedArrayResponse.status = true;
+                    }
+                }
+
+                //Ends Grade Related Query
+
+                //Starts Adding Band Related Query by Sivaguru M CHC1704 on 27-05-2024
+                string sSQLBand = "select 'band',m_Name,'','' from(select 'band',m_Name,m_Profile,m_Order from " + MyGlobal.activeDB + ".tbl_misc_bands where m_Profile = '" + profile + "' order by m_Order asc) as band";
+                using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
+                {
+                    con.Open();
+
+                    using (MySqlCommand mySqlCommand = new MySqlCommand(sSQLBand, con))
+                    {
+                        using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                while (reader.Read())
+                                {
+
+                                    if (reader.GetString(0).Equals("band")) fixedArrayResponse.sarBands.Add(reader.GetString(1));//on 25-05-2024
+
+
+                                }
+                            }
+                        }
+                        fixedArrayResponse.status = true;
+                    }
+                }
+
+
+
+
+                //Ends Adding Band Related Query
+
             }
             catch (MySqlException ex)
             {
@@ -9651,7 +9731,9 @@ m_ShiftEndTime,m_Head FROM " + MyGlobal.activeDB + ".tbl_rosters where m_Profile
                                     */
                                     Int32 key = 0;
                                     Int32 startdate = 0;
-                                    staffItem.m_PayscaleName = GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate);
+                                    //New User Creation error solved 27-05-2024 Starts 
+                                    staffItem.m_PayscaleName = ((staffItem.m_StaffID != null && staffItem.m_StaffID != "") ? GetActivePayscale(profile, staffItem.m_StaffID, out key, out startdate) : null);
+                                    //ends
                                     staffItem.m_PayscaleKey = key;
                                     staffItem.m_PayscaleStartDate = startdate;
                                     getStaffResponse.staffItem = staffItem;
