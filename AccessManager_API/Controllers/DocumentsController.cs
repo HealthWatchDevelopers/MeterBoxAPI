@@ -133,8 +133,6 @@ namespace MyHub.Controllers
             try
             {
                 var postResponse = new PostResponse();
-                
-
                 HttpPostedFileBase file = Request.Files["pdf"];
                 HttpPostedFileBase img = Request.Files["image"];
                 string dateString = Request.Form["date"];
@@ -165,6 +163,12 @@ namespace MyHub.Controllers
         }
         #endregion
 
+        #region Created by Periya Samy P CHC1761 on 29-04-2024
+        [HttpPost]
+        public ActionResult SourceFileUpload()
+        {
 
+        }
+        #endregion
     }
 }

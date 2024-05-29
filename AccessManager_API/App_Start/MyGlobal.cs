@@ -417,11 +417,6 @@ namespace MyHub.Controllers
                 }
                 //sStatus = "SMS Generated. Mode=" + signupMode + "[" + responseString + "]";
                 sStatus = "OTP sent by SMS.";
-
-
-
-
-
             }
             catch (ArgumentNullException ex)
             {
