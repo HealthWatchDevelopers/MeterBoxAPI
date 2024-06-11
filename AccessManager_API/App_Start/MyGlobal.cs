@@ -102,7 +102,7 @@ namespace MyHub.Controllers
             else if (HttpContext.Current.Request.Url.Host.IndexOf("chchealthcare", StringComparison.CurrentCultureIgnoreCase) > -1)
             {
                 //Testing Starts for AWS by Sivaguru M CHC1704 on 21-05-2024
-                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+                return "Server=localhost; User=root; Password=Healthdb$$$111###;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
 
                 //    return "Data Source=localhost; User Id=Root; Password=C8Gdgq_9rXW5E4c$; Database=mysql;SslMode=none;Convert Zero Datetime=True";
                 //}
@@ -113,16 +113,16 @@ namespace MyHub.Controllers
             }
             else if (HttpContext.Current.Request.Url.Host.IndexOf("chc-healthwatch-502072296.us-east-1.elb.amazonaws.com", StringComparison.CurrentCultureIgnoreCase) > -1)
             {
-                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+                return "Server=localhost; User=root; Password=Healthdb$$$111###;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
             }
             else if (HttpContext.Current.Request.Url.Host.IndexOf("chg-healthwatch-1983770325.ap-south-1.elb.amazonaws.com", StringComparison.CurrentCultureIgnoreCase) > -1)
             {
-                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+                return "Server=localhost; User=root; Password=Healthdb$$$111###;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
             }
             else
             {
                 //return "Server=10.0.135.112; User=meterboxuser; Password=meterbox@1234;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
-                return "Server=localhost; User=root; Password=root;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+                return "Server=localhost; User=root; Password=Healthdb$$$111###;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
                 //Testing Ends
 
                 //return "Data Source=localhost; User Id=root; Password=root; Database=mysql;SslMode=none;Convert Zero Datetime=True";
