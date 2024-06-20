@@ -2594,7 +2594,7 @@ namespace MyHub.Controllers
                             myCommand.Transaction = trans;
                             try
                             {
-                                sSQL = "INSERT INTO " + MyGlobal.activeDB + ".tbl_staffs (m_Profile,m_FName,m_Password,m_MenuKey,m_Status) values ('" + profile + "','_New','1234','" + sOwnerKey + "','Active');";
+                                sSQL = "INSERT INTO " + MyGlobal.activeDB + ".tbl_staffs (m_Profile,m_FName,m_Password,m_MenuKey,m_Status,m_PwdUpDateTime) values ('" + profile + "','_New','1234','" + sOwnerKey + "','Active',now());";
                                 myCommand.CommandText = sSQL;
                                 myCommand.ExecuteNonQuery();
 
