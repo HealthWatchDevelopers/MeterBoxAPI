@@ -2738,12 +2738,19 @@ namespace MyHub.Controllers
                                                 int iMonth = reader.GetInt16(2);
                                                 bool m_ApprovalHR = reader.IsDBNull(4);
                                                 bool m_ApprovalAccounts = reader.IsDBNull(5);
-                                                double m_ActualWorkingDays = reader.IsDBNull(6) ? 0 : reader.GetDouble(6); ;
+                                                double m_ActualWorkingDays = reader.IsDBNull(6) ? 0 : reader.GetDouble(6);
+                                                //double m_DaysTobePaidTotal = reader.IsDBNull(7) ? 0 : reader.GetDouble(7);//Added by Sivaguru M CHC1704 on 02-07-2024
                                                 bool bAddRetentionBonus = false;
                                                 if (iMonth == 2)
                                                 {
-                                                    bAddRetentionBonus = m_ActualWorkingDays >= 23;
+                                                    bAddRetentionBonus = m_ActualWorkingDays >= 22;//Modified 23 to 22  by Sivaguru M CHC1704 on 02-07-2024
                                                 }
+                                                //Starts Modified 30 days scheduled by Sivaguru M CHC1704 on 02-07-2024
+                                                else if ((m_ActualWorkingDays >= 24) && (iMonth == 4 || iMonth == 6 || iMonth == 9 || iMonth == 11))
+                                                {
+                                                    bAddRetentionBonus = true;
+                                                }
+                                                //Ends Modified 30 days scheduled
                                                 else
                                                 {
                                                     bAddRetentionBonus = m_ActualWorkingDays >= 25;

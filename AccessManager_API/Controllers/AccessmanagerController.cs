@@ -1666,6 +1666,7 @@ namespace MyHub.Controllers
                             {
                                 if (reader.Read())
                                 {
+                                   
                                     clientSignInResponse.m_StaffID = "";
                                     if (!reader.IsDBNull(0)) clientSignInResponse.m_StaffID = reader[0].ToString();
                                     if (!reader.IsDBNull(1)) clientSignInResponse.Name = reader[1].ToString();

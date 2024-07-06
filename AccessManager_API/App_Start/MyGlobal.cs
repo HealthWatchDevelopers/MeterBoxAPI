@@ -36,6 +36,7 @@ namespace MyHub.Controllers
         public static string activeDBLog = "";
         public static string activeDomain = "chchealthcare";//Aws testing server by Sivaguru M CHC1704 on 23-05-2024
 
+
         public static readonly string[] constArrayMonths =
     { "Jan", "Feb", "Mar", "Apr","May","Jun","Jly","Aug","Sep","Oct","Nov","Dec" };
         public static string GetDomain()

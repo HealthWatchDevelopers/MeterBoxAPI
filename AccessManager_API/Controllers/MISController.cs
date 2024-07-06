@@ -113,6 +113,7 @@ namespace MyHub.Controllers
         }
         */
         //-----------------------------------
+
         public ActionResult GetHRBonusAccruedActivities(
     string profile, string sort, string order, string page,
     string search, string timezone, string mode, int year, string chkshowall)
@@ -2045,9 +2046,11 @@ string search, string timezone, string mode, int year) // Year here is, previoue
                                         }
 
                                         leaveActivitiesResponse.items.Add(row);
+                                        
                                     }
                                     leaveActivitiesResponse.status = true;
                                     leaveActivitiesResponse.result = "Done";
+                                    
                                 }
                                 else
                                 {
@@ -2141,25 +2144,6 @@ string search, string timezone, string mode, int year) // Year here is, previoue
                                         string sql = "";
 
                                         sql = "select m_FName from " + MyGlobal.activeDB + ".tbl_staffs where " +
-                                            "m_email='" + row.m_ReportToFunctional + "' limit 1;";
-                                        using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
-                                        {
-                                            using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
-                                            {
-                                                if (reader1.HasRows)
-                                                {
-                                                    if (reader1.Read())
-                                                    {
-                                                        if (reader1["m_FName"] != null)
-                                                        {
-                                                            row.m_ReportToFunctionalName = reader1["m_FName"].ToString();
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-
-                                        sql = "select m_FName from " + MyGlobal.activeDB + ".tbl_staffs where " +
                                             "m_email='" + row.m_ReportToAdministrative + "' limit 1;";
                                         using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
                                         {
@@ -2186,9 +2170,9 @@ string search, string timezone, string mode, int year) // Year here is, previoue
                                         {
                                             //sql = "SELECT m_Amount FROM meterbox.tbl_payscale_master where m_Ledger='CTC' and m_Name='" + row.m_Payscale + "'";
                                             sql = "SELECT " +
-"sum(Case When m_Ledger = 'CTC' Then m_Amount Else 0 End) as amount, " +
-"sum(Case When m_Type = 'cr' Then m_Amount Else 0 End) as gross " +
-"FROM meterbox.tbl_payscale_master where  m_Name = '" + row.m_Payscale + "'";
+                                                "sum(Case When m_Ledger = 'CTC' Then m_Amount Else 0 End) as amount, " +
+                                                "sum(Case When m_Type = 'cr' Then m_Amount Else 0 End) as gross " +
+                                                "FROM meterbox.tbl_payscale_master where  m_Name = '" + row.m_Payscale + "'";
                                             using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
                                             {
                                                 using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())

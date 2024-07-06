@@ -2959,6 +2959,7 @@ namespace MyHub.Controllers
             {
                 iMonth = 12;
                 iYear--;
+                iYear--;
             }
             */
             var payslipSettlement = new PayslipSettlement();
