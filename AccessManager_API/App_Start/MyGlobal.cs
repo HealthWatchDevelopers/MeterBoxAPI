@@ -123,7 +123,7 @@ namespace MyHub.Controllers
             else
             {
                 //return "Server=10.0.135.112; User=meterboxuser; Password=meterbox@1234;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
-                return "Server=localhost; User=root; Password=Healthdb$$$111###;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
+                return "Server=localhost;User=root; Password=Healthdb$$$111###;SslMode=none;Convert Zero Datetime=True;allowPublicKeyRetrieval=true";
                 //Testing Ends
 
                 //return "Data Source=localhost; User Id=root; Password=root; Database=mysql;SslMode=none;Convert Zero Datetime=True";

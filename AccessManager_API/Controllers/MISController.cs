@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -2080,165 +2081,318 @@ string search, string timezone, string mode, int year) // Year here is, previoue
             leaveActivitiesResponse.result = "";
             leaveActivitiesResponse.ret_filename = "Staff summary as on "+DateTime.Now.ToString("MM-dd-yyyy mm:ss");
 
+            //Starts Test Stored Procedure 08-07-2024 Sivaguru M
+
             try
             {
-                string sSQL = "";
-                //Int32 unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+                //string sSQL = "";
+
                 using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
                 {
                     con.Open();
-                    using (MySqlConnection con1 = new MySqlConnection(MyGlobal.GetConnectionString()))
+
+                    string sSearchKey = " (m_StaffID LIKE '%" + search + "%' OR " +
+                                        "m_FName LIKE '%" + search + "%' OR " +
+                                        "m_Mobile LIKE '%" + search + "%' OR " +
+                                        "m_Payscale LIKE '%" + search + "%' OR " +
+                                        "m_Email LIKE '%" + search + "%') ";
+
+                    using (MySqlCommand mySqlCommand = new MySqlCommand("meterbox.GetStaffs", con))
                     {
-                        con1.Open();
-                        //________________________________________________________________
-                        String sSearchKey = " (m_StaffID like '%" + search + "%' or " +
-                        "m_FName like '%" + search + "%' or " +
-                        "m_Mobile like '%" + search + "%' or " +
-                        "m_Payscale like '%" + search + "%' or " +
-                        "m_Email like '%" + search + "%') ";
+                        mySqlCommand.CommandType = CommandType.StoredProcedure;
+                        mySqlCommand.Parameters.AddWithValue("profile", profile);
+                        mySqlCommand.Parameters.AddWithValue("showall", showall);
+                        mySqlCommand.Parameters.AddWithValue("search", search);
 
-
-
-                        sSQL = "select staffs.m_id,staffs.m_StaffID,staffs.m_FName," +
-                            "m_DOJ,m_DOA,m_LWD,m_Designation,m_Status,m_Team,m_Base,m_Band,m_Grade,m_Mrs,m_Payscale," +
-                            "m_ReportToAdministrative,m_ReportToFunctional,m_Mobile,m_CCTNo " +
-                            " from " + MyGlobal.activeDB + ".tbl_staffs as staffs " +
-                            "where m_Profile='" + profile + "' ";
-                        if (!showall) sSQL += " and m_LWD is null ";
-                        if (search.Length > 0) sSQL += " and " + sSearchKey + " ";
-                        //sSQL += "order by " + sort + " " + order + " limit " + iPageSize + " offset " + PAGE + ";";
-
-                        using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
+                        using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
                         {
-                            using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
+                            if (reader.HasRows)
                             {
-                                if (reader.HasRows)
+                                while (reader.Read())
                                 {
-                                    while (reader.Read())
+                                    SalaryReportRow row = new SalaryReportRow();
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_id"))) row.m_id = reader.GetInt32(reader.GetOrdinal("m_id"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_StaffID"))) row.m_StaffID = reader.GetString(reader.GetOrdinal("m_StaffID"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_FName"))) row.m_FName = reader.GetString(reader.GetOrdinal("m_FName"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Mrs")))
                                     {
-                                        SalaryReportRow row = new SalaryReportRow();
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_id"))) row.m_id = reader.GetInt32(reader.GetOrdinal("m_id"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_StaffID"))) row.m_StaffID = reader.GetString(reader.GetOrdinal("m_StaffID"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_FName"))) row.m_FName = reader.GetString(reader.GetOrdinal("m_FName"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Mrs")))
-                                        {
-                                            row.m_FName = (reader.GetInt16(reader.GetOrdinal("m_Mrs")) == 1 ? "Mr." : "Ms.")
-                                                + row.m_FName;
-                                        }
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_DOJ"))) row.m_DOJ = reader.GetDateTime(reader.GetOrdinal("m_DOJ")).ToString("dd-MM-yyyy");
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_DOA"))) row.m_DOA = reader.GetDateTime(reader.GetOrdinal("m_DOA")).ToString("dd-MM-yyyy");
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_LWD"))) row.m_LWD = reader.GetDateTime(reader.GetOrdinal("m_LWD")).ToString("dd-MM-yyyy");
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Designation"))) row.m_Designation = reader.GetString(reader.GetOrdinal("m_Designation"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Status"))) row.m_Status = reader.GetString(reader.GetOrdinal("m_Status"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Team"))) row.m_Team = reader.GetString(reader.GetOrdinal("m_Team"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Base"))) row.m_Base = reader.GetString(reader.GetOrdinal("m_Base"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Band"))) row.m_Band = reader.GetString(reader.GetOrdinal("m_Band"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Grade"))) row.m_Grade = reader.GetString(reader.GetOrdinal("m_Grade"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Payscale"))) row.m_Payscale = reader.GetString(reader.GetOrdinal("m_Payscale"));
-
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_ReportToAdministrative"))) row.m_ReportToAdministrative = reader.GetString(reader.GetOrdinal("m_ReportToAdministrative"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_ReportToFunctional"))) row.m_ReportToFunctional = reader.GetString(reader.GetOrdinal("m_ReportToFunctional"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_Mobile"))) row.m_Mobile = reader.GetString(reader.GetOrdinal("m_Mobile"));
-                                        if (!reader.IsDBNull(reader.GetOrdinal("m_CCTNo"))) row.m_CCTNo = reader.GetString(reader.GetOrdinal("m_CCTNo"));
-
-                                        string sql = "";
-
-                                        sql = "select m_FName from " + MyGlobal.activeDB + ".tbl_staffs where " +
-                                            "m_email='" + row.m_ReportToAdministrative + "' limit 1;";
-                                        using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
-                                        {
-                                            using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
-                                            {
-                                                if (reader1.HasRows)
-                                                {
-                                                    if (reader1.Read())
-                                                    {
-                                                        if (reader1["m_FName"] != null)
-                                                        {
-                                                            row.m_ReportToAdministrativeName = reader1["m_FName"].ToString();
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-
-
-                                        row.CTC = "";
-                                        row.GROSS = "";
-
-                                        if (row.m_Payscale != null && row.m_Payscale.Length > 0)
-                                        {
-                                            //sql = "SELECT m_Amount FROM meterbox.tbl_payscale_master where m_Ledger='CTC' and m_Name='" + row.m_Payscale + "'";
-                                            sql = "SELECT " +
-                                                "sum(Case When m_Ledger = 'CTC' Then m_Amount Else 0 End) as amount, " +
-                                                "sum(Case When m_Type = 'cr' Then m_Amount Else 0 End) as gross " +
-                                                "FROM meterbox.tbl_payscale_master where  m_Name = '" + row.m_Payscale + "'";
-                                            using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
-                                            {
-                                                using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
-                                                {
-                                                    if (reader1.HasRows)
-                                                    {
-                                                        if (reader1.Read())
-                                                        {
-                                                            if (reader1["amount"] != null)
-                                                            {
-                                                                row.CTC = reader1["amount"].ToString();
-                                                            }
-                                                            if (reader1["gross"] != null)
-                                                            {
-                                                                row.GROSS_Fixed = reader1["gross"].ToString();
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                        sql = "SELECT m_Year,m_Month," +
-                                        "sum(case when m_Type = 'earn' then m_Amount else 0 end) AS 'earn', " +
-                                        "sum(case when m_Type = 'cr' then m_Amount else 0 end) AS 'cr', " +
-                                        "sum(case when m_Type = 'dr' then m_Amount else 0 end) AS 'dr', " +
-                                        "sum(case when m_Type = 'deduct' then m_Amount else 0 end) AS 'deduct'," +
-                                        "sum(case when m_Type='earn' and m_Ledger like 'Retention Bonus%' then m_Amount else 0 end) AS 'RetentionBonus' " +
-                                        "FROM meterbox.tbl_payslips where m_StaffID = '" + row.m_StaffID + "' " +
-                                        "group by m_Year,m_Month " +
-                                        "order by m_id desc,m_Year, m_Month " +
-                                        "limit 1";
-                                        using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
-                                        {
-                                            using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
-                                            {
-                                                if (reader1.HasRows)
-                                                {
-                                                    if (reader1.Read())
-                                                    {
-                                                        row.GROSS_Year = reader1.IsDBNull(0) ? "0" : reader1.GetInt16(0).ToString();
-                                                        row.GROSS_Month = reader1.IsDBNull(1) ? "0" : (reader1.GetInt16(1) < 9 ? "0" + (reader1.GetInt16(1) + 1).ToString() : (reader1.GetInt16(1) + 1).ToString());
-                                                        row.TakeHome = (reader1.GetFloat(2) - reader1.GetFloat(5)).ToString();
-                                                        row.GROSS = reader1["earn"].ToString();
-                                                        row.RetentionBonus = reader1["RetentionBonus"].ToString();
-                                                    }
-                                                }
-                                            }
-                                        }
-
-                                        leaveActivitiesResponse.items.Add(row);
+                                        row.m_FName = (reader.GetInt16(reader.GetOrdinal("m_Mrs")) == 1 ? "Mr." : "Ms.") + row.m_FName;
                                     }
-                                    leaveActivitiesResponse.status = true;
-                                    leaveActivitiesResponse.result = "Done";
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_DOJ"))) row.m_DOJ = reader.GetDateTime(reader.GetOrdinal("m_DOJ")).ToString("dd-MM-yyyy");
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_DOA"))) row.m_DOA = reader.GetDateTime(reader.GetOrdinal("m_DOA")).ToString("dd-MM-yyyy");
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_LWD"))) row.m_LWD = reader.GetDateTime(reader.GetOrdinal("m_LWD")).ToString("dd-MM-yyyy");
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Designation"))) row.m_Designation = reader.GetString(reader.GetOrdinal("m_Designation"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Status"))) row.m_Status = reader.GetString(reader.GetOrdinal("m_Status"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Team"))) row.m_Team = reader.GetString(reader.GetOrdinal("m_Team"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Base"))) row.m_Base = reader.GetString(reader.GetOrdinal("m_Base"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Band"))) row.m_Band = reader.GetString(reader.GetOrdinal("m_Band"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Grade"))) row.m_Grade = reader.GetString(reader.GetOrdinal("m_Grade"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Payscale"))) row.m_Payscale = reader.GetString(reader.GetOrdinal("m_Payscale"));
+
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_ReportToAdministrative"))) row.m_ReportToAdministrative = reader.GetString(reader.GetOrdinal("m_ReportToAdministrative"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_ReportToFunctional"))) row.m_ReportToFunctional = reader.GetString(reader.GetOrdinal("m_ReportToFunctional"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_Mobile"))) row.m_Mobile = reader.GetString(reader.GetOrdinal("m_Mobile"));
+                                    if (!reader.IsDBNull(reader.GetOrdinal("m_CCTNo"))) row.m_CCTNo = reader.GetString(reader.GetOrdinal("m_CCTNo"));
+
+                                    using (MySqlConnection con1 = new MySqlConnection(MyGlobal.GetConnectionString()))
+                                    {
+                                        con1.Open();
+
+                                        using (MySqlCommand mySqlCommand1 = new MySqlCommand("meterbox.GetAdministrativeName", con1))
+                                        {
+                                            mySqlCommand1.CommandType = CommandType.StoredProcedure;
+                                            mySqlCommand1.Parameters.AddWithValue("email", row.m_ReportToAdministrative);
+
+                                            using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
+                                            {
+                                                if (reader1.HasRows && reader1.Read() && reader1["m_FName"] != null)
+                                                {
+                                                    row.m_ReportToAdministrativeName = reader1["m_FName"].ToString();
+                                                }
+                                            }
+                                        }
+                                        con1.Close();
+                                    }
+
+                                    row.CTC = "";
+                                    row.GROSS = "";
+
+                                    if (!string.IsNullOrEmpty(row.m_Payscale))
+                                    {
+                                        using (MySqlConnection con2 = new MySqlConnection(MyGlobal.GetConnectionString()))
+                                        {
+                                            con2.Open();
+                                            using (MySqlCommand mySqlCommand2 = new MySqlCommand("meterbox.GetPayscaleDetails", con2))
+                                            {
+                                                mySqlCommand2.CommandType = CommandType.StoredProcedure;
+                                                mySqlCommand2.Parameters.AddWithValue("payscale", row.m_Payscale);
+
+                                                using (MySqlDataReader reader2 = mySqlCommand2.ExecuteReader())
+                                                {
+                                                    if (reader2.HasRows && reader2.Read())
+                                                    {
+                                                        row.CTC = reader2["amount"].ToString();
+                                                        row.GROSS_Fixed = reader2["gross"].ToString();
+                                                    }
+                                                }
+                                            }
+                                            con2.Close();
+                                        }
+                                    }
+                                    using (MySqlConnection con3 = new MySqlConnection(MyGlobal.GetConnectionString()))
+                                    {
+                                        using (MySqlCommand mySqlCommand3 = new MySqlCommand("meterbox.GetLatestPayslip", con3))
+                                        {
+                                            con3.Open();
+                                            mySqlCommand3.CommandType = CommandType.StoredProcedure;
+                                            mySqlCommand3.Parameters.AddWithValue("staffID", row.m_StaffID);
+
+                                            using (MySqlDataReader reader3 = mySqlCommand3.ExecuteReader())
+                                            {
+                                                if (reader3.HasRows && reader3.Read())
+                                                {
+                                                    row.GROSS_Year = reader3.IsDBNull(0) ? "0" : reader3.GetInt16(0).ToString();
+                                                    row.GROSS_Month = reader3.IsDBNull(1) ? "0" : (reader3.GetInt16(1) < 9 ? "0" + (reader3.GetInt16(1) + 1).ToString() : (reader3.GetInt16(1) + 1).ToString());
+                                                    row.TakeHome = (reader3.GetFloat(2) - reader3.GetFloat(5)).ToString();
+                                                    row.GROSS = reader3["earn"].ToString();
+                                                    row.RetentionBonus = reader3["RetentionBonus"].ToString();
+                                                }
+                                            }
+                                            con3.Close();
+                                        }
+                                    }
+
+                                    leaveActivitiesResponse.items.Add(row);
                                 }
-                                else
-                                {
-                                    leaveActivitiesResponse.result = "Sorry!!! No Records";
-                                }
+                                leaveActivitiesResponse.status = true;
+                                leaveActivitiesResponse.result = "Done";
+                            }
+                            else
+                            {
+                                leaveActivitiesResponse.result = "Sorry!!! No Records";
                             }
                         }
-                        //________________________________________________________________
-                        con1.Close();
-                        con.Close();
                     }
+
+                    con.Close();
+                    
                 }
             }
+
+
+            //Ends Test Stored Procedure
+
+            //try
+            //{
+
+
+
+            //    //Starts Previous Code before Stored Procedure 08-07-2024 Sivaguru M
+            //    string sSQL = "";
+            //    //Int32 unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+            //    using (MySqlConnection con = new MySqlConnection(MyGlobal.GetConnectionString()))
+            //    {
+            //        con.Open();
+            //        using (MySqlConnection con1 = new MySqlConnection(MyGlobal.GetConnectionString()))
+            //        {
+            //            con1.Open();
+            //            //________________________________________________________________
+            //            String sSearchKey = " (m_StaffID like '%" + search + "%' or " +
+            //            "m_FName like '%" + search + "%' or " +
+            //            "m_Mobile like '%" + search + "%' or " +
+            //            "m_Payscale like '%" + search + "%' or " +
+            //            "m_Email like '%" + search + "%') ";
+
+
+
+            //            sSQL = "select staffs.m_id,staffs.m_StaffID,staffs.m_FName," +
+            //                "m_DOJ,m_DOA,m_LWD,m_Designation,m_Status,m_Team,m_Base,m_Band,m_Grade,m_Mrs,m_Payscale," +
+            //                "m_ReportToAdministrative,m_ReportToFunctional,m_Mobile,m_CCTNo " +
+            //                " from " + MyGlobal.activeDB + ".tbl_staffs as staffs " +
+            //                "where m_Profile='" + profile + "' ";
+            //            if (!showall) sSQL += " and m_LWD is null ";
+            //            if (search.Length > 0) sSQL += " and " + sSearchKey + " ";
+            //            //sSQL += "order by " + sort + " " + order + " limit " + iPageSize + " offset " + PAGE + ";";
+
+            //            using (MySqlCommand mySqlCommand = new MySqlCommand(sSQL, con))
+            //            {
+            //                using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
+            //                {
+            //                    if (reader.HasRows)
+            //                    {
+            //                        while (reader.Read())
+            //                        {
+            //                            SalaryReportRow row = new SalaryReportRow();
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_id"))) row.m_id = reader.GetInt32(reader.GetOrdinal("m_id"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_StaffID"))) row.m_StaffID = reader.GetString(reader.GetOrdinal("m_StaffID"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_FName"))) row.m_FName = reader.GetString(reader.GetOrdinal("m_FName"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Mrs")))
+            //                            {
+            //                                row.m_FName = (reader.GetInt16(reader.GetOrdinal("m_Mrs")) == 1 ? "Mr." : "Ms.")
+            //                                    + row.m_FName;
+            //                            }
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_DOJ"))) row.m_DOJ = reader.GetDateTime(reader.GetOrdinal("m_DOJ")).ToString("dd-MM-yyyy");
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_DOA"))) row.m_DOA = reader.GetDateTime(reader.GetOrdinal("m_DOA")).ToString("dd-MM-yyyy");
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_LWD"))) row.m_LWD = reader.GetDateTime(reader.GetOrdinal("m_LWD")).ToString("dd-MM-yyyy");
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Designation"))) row.m_Designation = reader.GetString(reader.GetOrdinal("m_Designation"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Status"))) row.m_Status = reader.GetString(reader.GetOrdinal("m_Status"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Team"))) row.m_Team = reader.GetString(reader.GetOrdinal("m_Team"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Base"))) row.m_Base = reader.GetString(reader.GetOrdinal("m_Base"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Band"))) row.m_Band = reader.GetString(reader.GetOrdinal("m_Band"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Grade"))) row.m_Grade = reader.GetString(reader.GetOrdinal("m_Grade"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Payscale"))) row.m_Payscale = reader.GetString(reader.GetOrdinal("m_Payscale"));
+
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_ReportToAdministrative"))) row.m_ReportToAdministrative = reader.GetString(reader.GetOrdinal("m_ReportToAdministrative"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_ReportToFunctional"))) row.m_ReportToFunctional = reader.GetString(reader.GetOrdinal("m_ReportToFunctional"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_Mobile"))) row.m_Mobile = reader.GetString(reader.GetOrdinal("m_Mobile"));
+            //                            if (!reader.IsDBNull(reader.GetOrdinal("m_CCTNo"))) row.m_CCTNo = reader.GetString(reader.GetOrdinal("m_CCTNo"));
+
+            //                            string sql = "";
+
+            //                            sql = "select m_FName from " + MyGlobal.activeDB + ".tbl_staffs where " +
+            //                                "m_email='" + row.m_ReportToAdministrative + "' limit 1;";
+            //                            using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
+            //                            {
+            //                                using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
+            //                                {
+            //                                    if (reader1.HasRows)
+            //                                    {
+            //                                        if (reader1.Read())
+            //                                        {
+            //                                            if (reader1["m_FName"] != null)
+            //                                            {
+            //                                                row.m_ReportToAdministrativeName = reader1["m_FName"].ToString();
+            //                                            }
+            //                                        }
+            //                                    }
+            //                                }
+            //                            }
+
+
+            //                            row.CTC = "";
+            //                            row.GROSS = "";
+
+            //                            if (row.m_Payscale != null && row.m_Payscale.Length > 0)
+            //                            {
+            //                                //sql = "SELECT m_Amount FROM meterbox.tbl_payscale_master where m_Ledger='CTC' and m_Name='" + row.m_Payscale + "'";
+            //                                sql = "SELECT " +
+            //                                    "sum(Case When m_Ledger = 'CTC' Then m_Amount Else 0 End) as amount, " +
+            //                                    "sum(Case When m_Type = 'cr' Then m_Amount Else 0 End) as gross " +
+            //                                    "FROM meterbox.tbl_payscale_master where  m_Name = '" + row.m_Payscale + "'";
+            //                                using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
+            //                                {
+            //                                    using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
+            //                                    {
+            //                                        if (reader1.HasRows)
+            //                                        {
+            //                                            if (reader1.Read())
+            //                                            {
+            //                                                if (reader1["amount"] != null)
+            //                                                {
+            //                                                    row.CTC = reader1["amount"].ToString();
+            //                                                }
+            //                                                if (reader1["gross"] != null)
+            //                                                {
+            //                                                    row.GROSS_Fixed = reader1["gross"].ToString();
+            //                                                }
+            //                                            }
+            //                                        }
+            //                                    }
+            //                                }
+            //                            }
+
+            //                            //Ends Previous Code before Stored Procedure 08-07-2024 Sivaguru M
+
+            //                            //Starts Previous Before Stored Procedure 08-07-2024 Sivaguru M
+            //                            sql = "SELECT m_Year,m_Month," +
+            //                            "sum(case when m_Type = 'earn' then m_Amount else 0 end) AS 'earn', " +
+            //                            "sum(case when m_Type = 'cr' then m_Amount else 0 end) AS 'cr', " +
+            //                            "sum(case when m_Type = 'dr' then m_Amount else 0 end) AS 'dr', " +
+            //                            "sum(case when m_Type = 'deduct' then m_Amount else 0 end) AS 'deduct'," +
+            //                            "sum(case when m_Type='earn' and m_Ledger like 'Retention Bonus%' then m_Amount else 0 end) AS 'RetentionBonus' " +
+            //                            "FROM meterbox.tbl_payslips where m_StaffID = '" + row.m_StaffID + "' " +
+            //                            "group by m_Year,m_Month " +
+            //                            "order by m_id desc,m_Year, m_Month " +
+            //                            "limit 1";
+            //                            using (MySqlCommand mySqlCommand1 = new MySqlCommand(sql, con1))
+            //                            {
+            //                                using (MySqlDataReader reader1 = mySqlCommand1.ExecuteReader())
+            //                                {
+            //                                    if (reader1.HasRows)
+            //                                    {
+            //                                        if (reader1.Read())
+            //                                        {
+            //                                            row.GROSS_Year = reader1.IsDBNull(0) ? "0" : reader1.GetInt16(0).ToString();
+            //                                            row.GROSS_Month = reader1.IsDBNull(1) ? "0" : (reader1.GetInt16(1) < 9 ? "0" + (reader1.GetInt16(1) + 1).ToString() : (reader1.GetInt16(1) + 1).ToString());
+            //                                            row.TakeHome = (reader1.GetFloat(2) - reader1.GetFloat(5)).ToString();
+            //                                            row.GROSS = reader1["earn"].ToString();
+            //                                            row.RetentionBonus = reader1["RetentionBonus"].ToString();
+            //                                        }
+            //                                    }
+            //                                }
+            //                            }
+            //                            //Ends Previous Before Stored Procedure
+
+
+
+
+            //                            leaveActivitiesResponse.items.Add(row);
+            //                        }
+            //                        leaveActivitiesResponse.status = true;
+            //                        leaveActivitiesResponse.result = "Done";
+            //                    }
+            //                    else
+            //                    {
+            //                        leaveActivitiesResponse.result = "Sorry!!! No Records";
+            //                    }
+            //                }
+            //            }
+            //            //________________________________________________________________
+            //            con1.Close();
+            //            con.Close();
+            //        }
+            //    }
+            //}
             catch (MySqlException ex)
             {
                 leaveActivitiesResponse.result = "Error-" + ex.Message;
