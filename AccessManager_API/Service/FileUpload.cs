@@ -12,7 +12,7 @@ namespace MyHub.Service
     {
         internal static object InsertImage(HttpPostedFileBase pro_img, string year, string FileName, int fileno)
         {
-            var docName = "";
+            
             if (pro_img != null)
             {
                 var folderName = Path.Combine("data", @"pulse", year);
@@ -24,7 +24,7 @@ namespace MyHub.Service
                 // If fileno is 2, call ModifyIndexFile
                 if (fileno == 2)
                 {
-                    ModifyIndexFile(Path.Combine(filePath, folderName), docName);
+                    ModifyIndexFile(Path.Combine(filePath, folderName), FileName);
                 }
             }
             return "Image Uploaded";
